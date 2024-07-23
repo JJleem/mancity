@@ -4,6 +4,7 @@ import {
   StyleSlider,
   Sliders,
   SliderContainer,
+  SliderImg,
 } from "./StyleMainHome";
 import Footer from "../Component/common/footer/Footer";
 import "slick-carousel/slick/slick.css";
@@ -39,12 +40,19 @@ const MainHome = () => {
     <MainHomeContainer>
       <MainHomeInner>
         <SliderContainer className="slider-container">
-          <h2>Auto Play {"&"} Pause with buttons</h2>
           <StyleSlider ref={sliderRef} {...settings}>
-            <Sliders>1</Sliders>
-            <div>2</div>
-            <Sliders>3</Sliders>
-            <div>4</div>
+            <Sliders>
+              <SliderImg></SliderImg>
+            </Sliders>
+            <Sliders>
+              <SliderImg></SliderImg>
+            </Sliders>
+            <Sliders>
+              <SliderImg></SliderImg>
+            </Sliders>
+            <Sliders>
+              <SliderImg></SliderImg>
+            </Sliders>
           </StyleSlider>
           {/* <div style={{ textAlign: "center" }}>
             <button className="button" onClick={play}>
