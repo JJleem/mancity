@@ -17,6 +17,7 @@ export const HeaderContainer = styled.div`
   top: 0;
   font-weight: 700;
   color: ${({ theme }) => theme.colors.TitleColor};
+  z-index: 9999;
 `;
 export const HeaderInner = styled.div`
   width: 1024px;
