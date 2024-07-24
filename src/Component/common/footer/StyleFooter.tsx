@@ -7,7 +7,7 @@ type logoProps = {
 };
 export const FooterContainer = styled.div`
   width: 100%;
-  position: absolute;
+  position: sticky;
   bottom: 0;
   z-index: 9999;
 `;
@@ -294,11 +294,15 @@ export const FooterBottomPolicy = styled.ul`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    font-size: ${({ theme }) => theme.fontSize.p13};
+  }
 `;
 export const FooterBottomPolicyList = styled.li`
   cursor: pointer;
   transition: all 0.3s;
   font-weight: 700;
+
   &:hover {
     color: ${({ theme }) => theme.colors.point_Skyblue};
   }
@@ -309,6 +313,10 @@ export const FooterBottomBottomLogoContainer = styled.div`
   justify-content: space-between;
   width: 100%;
   padding: 0px 100px;
+
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    padding: 0px 0px;
+  }
 `;
 export const BottomLogoContainer = styled.div`
   display: flex;
