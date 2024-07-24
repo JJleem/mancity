@@ -215,11 +215,11 @@ export const StyleSlider = styled(Slider)<Props>`
 `;
 export const SliderDesc = styled.div`
   width: 400px;
-  height: 313px;
+  height: 289px;
   background: rgba(0, 24, 56, 1);
 
   position: absolute;
-  top: 23%;
+  top: 30%;
   z-index: 99;
   left: 56px;
   color: ${({ theme }) => theme.colors.White};

@@ -9,8 +9,10 @@ import {
 const MainNewsSection = () => {
   return (
     <NewsSection>
-      <NewsSectionBg />
-      <NewsSectionInner></NewsSectionInner>
+      <NewsSectionInner>
+        <div></div>
+        <div></div>
+      </NewsSectionInner>
     </NewsSection>
   );
 };

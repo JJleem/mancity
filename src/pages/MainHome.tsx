@@ -5,8 +5,9 @@ import "slick-carousel/slick/slick-theme.css";
 import React, { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
 import { Link, useNavigate } from "react-router-dom";
-import MainSlider from "../Component/MainHome/MainSlider";
-import MainNewsSection from "../Component/MainHome/MainNewsSection";
+import MainSlider from "../Component/MainHome/mainSlider/MainSlider";
+import MainNewsSection from "../Component/MainHome/mainNews/MainNewsSection";
+import MainRankSection from "../Component/MainHome/mainRank/MainRankSection";
 
 const MainHome = () => {
   return (
@@ -14,7 +15,7 @@ const MainHome = () => {
       <MainHomeInner>
         <MainSlider />
       </MainHomeInner>
-      <MainNewsSection />
+      <MainRankSection />
       <Footer />
     </MainHomeContainer>
   );

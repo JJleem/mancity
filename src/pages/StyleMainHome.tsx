@@ -1,9 +1,17 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 type Props = {
   isActive?: boolean;
   img?: string;
 };
+export const Opacity = keyframes`
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+`;
 export const MainHomeContainer = styled.div`
   width: 100%;
   /* padding-top: 78px; */
@@ -15,7 +23,7 @@ export const MainHomeContainer = styled.div`
   align-items: center;
   flex-direction: column;
   overflow-x: hidden;
-  /* gap: 28px; */
+  gap: 28px;
   @media ${({ theme }) => theme.mediaSize.xs} {
     gap: 174px;
   }
