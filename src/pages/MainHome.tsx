@@ -9,7 +9,10 @@ import MainSlider from "../Component/MainHome/mainSlider/MainSlider";
 import MainNewsSection from "../Component/MainHome/mainNews/MainNewsSection";
 import MainRankSection from "../Component/MainHome/mainRank/MainRankSection";
 import MainNextMatch from "../Component/MainHome/MainNextMatch/MainNextMatch";
-import { Gif } from "../Component/MainHome/mainNews/StyleMainNewsSection";
+import {
+  Gif,
+  GifTwo,
+} from "../Component/MainHome/mainNews/StyleMainNewsSection";
 
 const MainHome = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -22,7 +25,7 @@ const MainHome = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
+  console.log(scrollY);
   return (
     <MainHomeContainer>
       <MainHomeInner>
@@ -32,6 +35,7 @@ const MainHome = () => {
       <MainNextMatch />
       <Gif scroll={scrollY} />
       <MainNewsSection />
+      <GifTwo scroll={scrollY} />
       <Footer />
     </MainHomeContainer>
   );

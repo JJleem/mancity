@@ -163,6 +163,30 @@ export const Gif = styled.div<scrollProps>`
     background-size: 100% 60%;
   }
 `;
+export const GifTwo = styled.div<scrollProps>`
+  width: 1024px;
+  height: 80px;
+  ${({ scroll }) =>
+    scroll >= 2700 &&
+    css`
+      animation: ${Opacity} 1.5s ease-in-out;
+      animation-fill-mode: forwards;
+    `}
+  opacity: 0;
+  animation-delay: 0.1s;
+  background-image: url("https://tpc.googlesyndication.com/simgad/7507177924704857320");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    width: 100%;
+    background-size: 100%;
+  }
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    width: 100%;
+    background-size: 100% 60%;
+  }
+`;
 export const SubNewsBox = styled.div`
   width: 100%;
   padding: 0 17px;
@@ -283,5 +307,33 @@ export const TitleBoxImgBig = styled.div`
   position: relative;
   @media ${({ theme }) => theme.mediaSize.md} {
     height: 500px;
+  }
+`;
+export const MoreNews = styled.div`
+  border: 1px solid ${({ theme }) => theme.colors.info_BG};
+  position: relative;
+  margin-top: 12px;
+`;
+export const MoreNewsBtn = styled.div`
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 12px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid ${({ theme }) => theme.colors.info_BG};
+  z-index: 2;
+  background: ${({ theme }) => theme.colors.White};
+  font-size: ${({ theme }) => theme.fontSize.p20};
+  font-weight: 700;
+  color: ${({ theme }) => theme.colors.medium_blue};
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover {
+    background: ${({ theme }) => theme.colors.point_Skyblue};
+    color: ${({ theme }) => theme.colors.White};
   }
 `;

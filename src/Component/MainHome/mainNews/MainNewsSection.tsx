@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import {
   Gif,
+  MoreNews,
+  MoreNewsBtn,
   NewsSection,
   NewsSectionBg,
   NewsSectionInner,
@@ -17,8 +19,13 @@ import {
   TitleNewsBox,
   TitleSection,
 } from "./StyleMainNewsSection";
+import { useNavigate } from "react-router-dom";
 
 const MainNewsSection = () => {
+  const navigate = useNavigate();
+  const onNews = () => {
+    navigate("/news");
+  };
   const [scrollY, setScrollY] = useState(0);
   useEffect(() => {
     const handleScroll = () => {
@@ -150,6 +157,9 @@ const MainNewsSection = () => {
             </SubBox>
           </SubNewsGrid>
         </SubNewsBox>
+        <MoreNews>
+          <MoreNewsBtn onClick={onNews}>More News</MoreNewsBtn>
+        </MoreNews>
       </NewsSectionInner>
     </NewsSection>
   );
