@@ -8,14 +8,30 @@ import { Link, useNavigate } from "react-router-dom";
 import MainSlider from "../Component/MainHome/mainSlider/MainSlider";
 import MainNewsSection from "../Component/MainHome/mainNews/MainNewsSection";
 import MainRankSection from "../Component/MainHome/mainRank/MainRankSection";
+import MainNextMatch from "../Component/MainHome/MainNextMatch/MainNextMatch";
+import { Gif } from "../Component/MainHome/mainNews/StyleMainNewsSection";
 
 const MainHome = () => {
+  const [scrollY, setScrollY] = useState(0);
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <MainHomeContainer>
       <MainHomeInner>
         <MainSlider />
       </MainHomeInner>
       <MainRankSection />
+      <MainNextMatch />
+      <Gif scroll={scrollY} />
+      <MainNewsSection />
       <Footer />
     </MainHomeContainer>
   );

@@ -46,6 +46,7 @@ const MainSlider = () => {
   const [subText, setSubText] = useState<string>(
     "GUARDIOLA GIVES TRANSFER UPDATE"
   );
+  const [subDesc, setSubDesc] = useState<string>("Interview");
   const navigate = useNavigate();
   const [go, setGo] = useState("/news/1");
   const handleGo = () => {
@@ -58,16 +59,19 @@ const MainSlider = () => {
         setGo("/news/1");
         break;
       case 1:
-        setSubText("LOREM IPSUM DOLLAR IPSUM@22222");
+        setSubText("CITY EDGED OUT IN SEVEN-GOAL CELTIC THRILLER");
         setGo("/news/2");
+        setSubDesc("Match Report");
         break;
       case 2:
-        setSubText("LOREM IPSUM DOLLAR IPSUM@33333");
+        setSubText("INSIDE CITY EPISODE 468: CITY BEGIN OUR US TOUR!");
         setGo("/news/3");
+        setSubDesc("BEHIND THE SCENES");
         break;
       case 3:
-        setSubText("LOREM IPSUM DOLLAR IPSUM@44444");
-        setGo("/news/4");
+        setSubText("INSIDE CITY EPISODE 468: CITY BEGIN OUR US TOUR!");
+        setGo("/news/3");
+        setSubDesc("BEHIND THE SCENES");
         break;
       default:
         setSubText("GUARDIOLA GIVES TRANSFER UPDATE");
@@ -112,7 +116,7 @@ const MainSlider = () => {
     <SliderContainer className="slider-container">
       <SliderDesc>
         <SliderDescSub>
-          <p>Men's Team</p>
+          <p>{subDesc}</p>
         </SliderDescSub>
 
         <SliderDescTitle>
@@ -154,7 +158,7 @@ const MainSlider = () => {
         <Sliders>
           <SliderImg
             img={
-              "https://img.fcbayern.com/image/upload/t_cms-16x9/f_auto/w_1600%2Cc_fill/q_auto/v1681631997/cms/public/images/fcbayern-com/homepage/Saison-22-23/Gegner/Manchester%20City/230415-haaland-mancity-leicester-get.jpg"
+              "https://www.mancity.com/meta/media/tloazxvl/celtic-lead.jpg?width=1620&&mode=fill"
             }
           >
             <Overlay />
@@ -172,7 +176,7 @@ const MainSlider = () => {
         <Sliders>
           <SliderImg
             img={
-              "https://www.mancity.com/meta/media/eu3h01vo/celtic-extended-wide.jpg?width=1290"
+              "https://www.mancity.com/meta/media/sinice2v/inside-city-wide.jpg?width=1620&mode=fill"
             }
           >
             <Overlay />

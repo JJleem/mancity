@@ -23,9 +23,9 @@ export const MainHomeContainer = styled.div`
   align-items: center;
   flex-direction: column;
   overflow-x: hidden;
-  gap: 28px;
+  gap: 48px;
   @media ${({ theme }) => theme.mediaSize.xs} {
-    gap: 174px;
+    gap: 48px;
   }
 `;
 export const MainHomeInner = styled.div`
@@ -42,5 +42,6 @@ export const MainHomeInner = styled.div`
   }
   @media ${({ theme }) => theme.mediaSize.xs} {
     height: fit-content;
+    padding-bottom: 150px;
   }
 `;

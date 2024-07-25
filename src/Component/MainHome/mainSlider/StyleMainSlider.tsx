@@ -84,7 +84,7 @@ export const StyleSlider = styled(Slider)<Props>`
     }
     li:nth-child(2) {
       button {
-        background-image: url("https://img.fcbayern.com/image/upload/t_cms-16x9/f_auto/w_1600%2Cc_fill/q_auto/v1681631997/cms/public/images/fcbayern-com/homepage/Saison-22-23/Gegner/Manchester%20City/230415-haaland-mancity-leicester-get.jpg");
+        background-image: url("https://www.mancity.com/meta/media/tloazxvl/celtic-lead.jpg?width=645&height=364&mode=crop");
       }
     }
     li:nth-child(3) {
@@ -94,7 +94,7 @@ export const StyleSlider = styled(Slider)<Props>`
     }
     li:nth-child(4) {
       button {
-        background-image: url("https://www.mancity.com/meta/media/eu3h01vo/celtic-extended-wide.jpg?width=1290&height=728&mode=crop 1290w");
+        background-image: url("https://www.mancity.com/meta/media/sinice2v/inside-city-wide.jpg?width=645&height=364&mode=crop");
       }
     }
   }
@@ -215,11 +215,11 @@ export const StyleSlider = styled(Slider)<Props>`
 `;
 export const SliderDesc = styled.div`
   width: 400px;
-  height: 289px;
+  height: 295px;
   background: rgba(0, 24, 56, 1);
 
   position: absolute;
-  top: 30%;
+  top: 623px;
   z-index: 99;
   left: 56px;
   color: ${({ theme }) => theme.colors.White};
