@@ -1,8 +1,11 @@
 import styled from "styled-components";
 import { Opacity } from "../../../pages/StyleMainHome";
 import { css } from "styled-components";
-type scrollProps = {
+export type scrollProps = {
   scroll: number;
+};
+type imgsProps = {
+  imgs: string[];
 };
 export const NewsSection = styled.div<scrollProps>`
   width: 100%;
@@ -42,6 +45,9 @@ export const TitleSection = styled.div`
   @media ${({ theme }) => theme.mediaSize.md} {
     font-size: ${({ theme }) => theme.fontSize.p45};
   }
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    font-size: ${({ theme }) => theme.fontSize.p30};
+  }
 `;
 export const TitleNewsBox = styled.div`
   display: flex;
@@ -52,7 +58,7 @@ export const TitleNewsBox = styled.div`
     gap: 24px;
   }
 `;
-export const TitleBox = styled.div`
+export const TitleBox = styled.div<imgsProps>`
   width: 34%;
   display: flex;
   flex-direction: column;
@@ -68,17 +74,17 @@ export const TitleBox = styled.div`
   }
   &:nth-child(1) {
     div {
-      background-image: url("https://www.mancity.com/meta/media/3ihduq03/celtic-extended-wide.jpg?&height=172&mode=crop");
+      background-image: url(${({ imgs }) => imgs[0]});
     }
   }
   &:nth-child(2) {
     div {
-      background-image: url("	https://www.mancity.com/meta/media/mw5j3353/scholars-wide.jpg?&height=172&mode=crop");
+      background-image: url(${({ imgs }) => imgs[1]});
     }
   }
   &:nth-child(3) {
     div {
-      background-image: url("https://www.mancity.com/meta/media/1vskt45k/pep-vid.jpg?&height=172&mode=crop");
+      background-image: url(${({ imgs }) => imgs[2]});
     }
   }
 `;
@@ -125,6 +131,21 @@ export const TitleBoxOverlay = styled.span`
 export const TitleBoxTitle = styled.span`
   padding: 0px 17px;
   font-size: ${({ theme }) => theme.fontSize.p17};
+  text-overflow: ellipsis;
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    font-size: ${({ theme }) => theme.fontSize.p17};
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 400px;
+  }
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    font-size: ${({ theme }) => theme.fontSize.p15};
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 300px;
+  }
 `;
 export const TitleBoxSub = styled.span`
   padding: 0px 17px;
@@ -164,6 +185,7 @@ export const Gif = styled.div<scrollProps>`
   }
 `;
 export const GifTwo = styled.div<scrollProps>`
+  margin-top: 48px;
   width: 1024px;
   height: 80px;
   ${({ scroll }) =>
@@ -209,7 +231,7 @@ export const SubNewsGrid = styled.div`
     grid-template-columns: repeat(1, 1fr);
   }
 `;
-export const SubBox = styled.div`
+export const SubBox = styled.div<imgsProps>`
   display: flex;
   height: 100%;
   justify-content: space-between;
@@ -227,6 +249,20 @@ export const SubBox = styled.div`
   }
   p {
     font-size: ${({ theme }) => theme.fontSize.p17};
+    @media ${({ theme }) => theme.mediaSize.sm} {
+      font-size: ${({ theme }) => theme.fontSize.p17};
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      max-width: 400px;
+    }
+    @media ${({ theme }) => theme.mediaSize.xs} {
+      font-size: ${({ theme }) => theme.fontSize.p15};
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      max-width: 300px;
+    }
   }
   span {
     font-size: ${({ theme }) => theme.fontSize.p12};
@@ -234,36 +270,35 @@ export const SubBox = styled.div`
   }
   div {
     background-size: contain;
-    background-image: url("https://www.mancity.com/meta/media/1vskt45k/pep-vid.jpg?&height=172&mode=crop");
   }
   &:nth-child(1) {
     div {
-      background-image: url("https://www.mancity.com/meta/media/ejckpd5b/city-on-tour-thumbnail-1.jpg?width=229&height=129&mode=crop");
+      background-image: url(${({ imgs }) => imgs[0]});
     }
   }
   &:nth-child(2) {
     div {
-      background-image: url("https://www.mancity.com/meta/media/sinice2v/inside-city-wide.jpg?width=229&height=129&mode=crop");
+      background-image: url(${({ imgs }) => imgs[1]});
     }
   }
   &:nth-child(3) {
     div {
-      background-image: url("https://www.mancity.com/meta/media/ipppkoa1/main.jpg?width=229&height=129&mode=crop");
+      background-image: url(${({ imgs }) => imgs[2]});
     }
   }
   &:nth-child(4) {
     div {
-      background-image: url("https://www.mancity.com/meta/media/0cgf3nr2/pepnc.jpg?width=229&height=129&mode=crop");
+      background-image: url(${({ imgs }) => imgs[3]});
     }
   }
   &:nth-child(5) {
     div {
-      background-image: url("https://www.mancity.com/meta/media/gu1i1nbi/mateo-josko-wide.jpg?width=229&height=129&mode=crop");
+      background-image: url(${({ imgs }) => imgs[4]});
     }
   }
   &:nth-child(6) {
     div {
-      background-image: url("https://www.mancity.com/meta/media/f0sjzqos/savinho-wide-9.jpg?width=229&height=129&mode=crop");
+      background-image: url(${({ imgs }) => imgs[5]});
     }
   }
   @media ${({ theme }) => theme.mediaSize.md} {
@@ -272,7 +307,7 @@ export const SubBox = styled.div`
     justify-content: center;
   }
 `;
-export const SubBoxBig = styled.div`
+export const SubBoxBig = styled.div<imgsProps>`
   display: flex;
   height: 100%;
   justify-content: space-between;
@@ -284,13 +319,27 @@ export const SubBoxBig = styled.div`
   font-weight: 700;
   p {
     font-size: ${({ theme }) => theme.fontSize.p20};
+    @media ${({ theme }) => theme.mediaSize.sm} {
+      font-size: ${({ theme }) => theme.fontSize.p17};
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      max-width: 400px;
+    }
+    @media ${({ theme }) => theme.mediaSize.xs} {
+      font-size: ${({ theme }) => theme.fontSize.p15};
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      max-width: 300px;
+    }
   }
   span {
     font-size: ${({ theme }) => theme.fontSize.p14};
     color: ${({ theme }) => theme.colors.sub_text};
   }
   div {
-    background-image: url("https://www.mancity.com/meta/media/w0mnu5us/foty_foden_16x9.png?width=1620");
+    background-image: url(${({ imgs }) => imgs[0]});
   }
   @media ${({ theme }) => theme.mediaSize.md} {
     align-items: center;
@@ -312,7 +361,8 @@ export const TitleBoxImgBig = styled.div`
 export const MoreNews = styled.div`
   border: 1px solid ${({ theme }) => theme.colors.info_BG};
   position: relative;
-  margin-top: 12px;
+  margin-top: 24px;
+  width: 100%;
 `;
 export const MoreNewsBtn = styled.div`
   position: absolute;
@@ -335,5 +385,10 @@ export const MoreNewsBtn = styled.div`
   &:hover {
     background: ${({ theme }) => theme.colors.point_Skyblue};
     color: ${({ theme }) => theme.colors.White};
+  }
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    width: 130px;
+    padding: 10px 15px;
+    font-size: ${({ theme }) => theme.fontSize.p14};
   }
 `;

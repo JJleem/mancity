@@ -1,0 +1,135 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "img": "https://www.mancity.com/meta/media/jgnjvra5/cp-lead.jpg?width=1920&mode=crop",
+      "title": "US Tour: Training in Central Park",
+      "subdesc": "Picture Special"
+    },
+
+    {
+      "id": 2,
+      "img": "https://www.mancity.com/meta/media/tloazxvl/celtic-lead.jpg?width=1920&&mode=fill",
+      "title": "CITY EDGED OUT IN SEVEN-GOAL CELTIC THRILLER",
+      "subdesc": "Match Report"
+    },
+    {
+      "id": 3,
+      "img": "https://www.mancity.com/meta/media/01ibqb4w/pg-wide-overlay.jpg?width=1920&mode=fill",
+      "title": "GUARDIOLA GIVES TRANSFER UPDATE",
+      "subdesc": "Interview"
+    },
+    {
+      "id": 4,
+      "img": "https://www.mancity.com/meta/media/sinice2v/inside-city-wide.jpg?width=1920&mode=fill",
+      "title": "INSIDE CITY EPISODE 468: CITY BEGIN OUR US TOUR!",
+      "subdesc": "BEHIND THE SCENES"
+    }
+  ],
+  "newsMain": [
+    {
+      "id": 5,
+      "img": "https://www.mancity.com/meta/media/3ihduq03/celtic-extended-wide.jpg?&height=172&mode=crop",
+      "title": "CITY 3-4 CELTIC: EXTENDED HIGHLIGHTS",
+      "subdesc": "MATCH HIGHLIGHTS"
+    },
+    {
+      "id": 6,
+      "img": "https://www.mancity.com/meta/media/mw5j3353/scholars-wide.jpg?&height=172&mode=crop",
+      "title": "12 ACADEMY PLAYERS SIGN SCHOLARSHIPS",
+      "subdesc": "EDS & ACADEMY"
+    },
+    {
+      "id": 7,
+      "img": "https://www.mancity.com/meta/media/1vskt45k/pep-vid.jpg?&height=172&mode=crop",
+      "title": "Guardiola: Bobb has incredible potential",
+      "subdesc": "INTERVIEWS"
+    }
+  ],
+  "newsSubBig": [
+    {
+      "id": 8,
+      "img": "https://www.mancity.com/meta/media/w0mnu5us/foty_foden_16x9.png?width=1620",
+      "title": "FODEN NAMED PREMIER LEAGUE PLAYER OF THE SEASON",
+      "subdesc": "Men's Team"
+    }
+  ],
+  "newsSub": [
+    {
+      "id": 9,
+      "img": "https://www.mancity.com/meta/media/ejckpd5b/city-on-tour-thumbnail-1.jpg?width=229&height=129&mode=crop",
+      "title": "City on Tour Episode One: North Carolina",
+      "subdesc": "FEATURES"
+    },
+    {
+      "id": 10,
+      "img": "https://www.mancity.com/meta/media/ipppkoa1/main.jpg?width=229&height=129&mode=crop",
+      "title": "Gallery: Recovery after Celtic clash",
+      "subdesc": "PICTURE SPECIAL"
+    },
+    {
+      "id": 11,
+      "img": "https://www.mancity.com/meta/media/0cgf3nr2/pepnc.jpg?width=229&height=129&mode=crop",
+      "title": "Guardiola happy with North Carolina leg of US Tour",
+      "subdesc": "INTERVIEWS"
+    },
+    {
+      "id": 12,
+      "img": "https://www.mancity.com/meta/media/gu1i1nbi/mateo-josko-wide.jpg?width=229&height=129&mode=crop",
+      "title": "GVARDIOL AND KOVACIC TO JOIN UP WITH CITY IN NEW YORK",
+      "subdesc": "MEN'S TEAM"
+    },
+    {
+      "id": 13,
+      "img": "https://www.mancity.com/meta/media/f0sjzqos/savinho-wide-9.jpg?width=229&height=129&mode=crop",
+      "title": "SAVINHO: IN HIS OWN WORDS",
+      "subdesc": "INTERVIEWS"
+    },
+    {
+      "id": 14,
+      "img": "https://www.mancity.com/meta/media/ts5p0dhs/oscar-bobb-celtic-lead.jpg?width=229&height=129&mode=crop",
+      "title": "I'M GAINING EXPERIENCE EVERY DAY, SAYS BOBB",
+      "subdesc": "INTERVIEWS"
+    }
+  ],
+  "womenNews": [
+    {
+      "id": 15,
+      "img": "https://www.mancity.com/meta/media/1xenmhvu/leic.jpg?width=229&height=129&mode=crop",
+      "title": "City in Australia: City v Leicester head to head",
+      "subdesc": "WOMEN'S TEAM"
+    },
+    {
+      "id": 16,
+      "img": "https://www.mancity.com/meta/media/zzfk5hji/yui-overlay.jpg?width=229&height=129&mode=crop",
+      "title": "OLYMPIC PROFILE: YUI HASEGAWA",
+      "subdesc": "WOMEN'S TEAM"
+    },
+    {
+      "id": 17,
+      "img": "https://www.mancity.com/meta/media/uoehdepg/laia-aleixandri-arsenal-celebration.jpg?width=229&height=129&mode=crop",
+      "title": "CITY’S OPENING TWO WSL FIXTURES SELECTED FOR TV COVERAGE",
+      "subdesc": "WOMEN'S TEAM"
+    }
+  ],
+  "edsNews": [
+    {
+      "id": 18,
+      "img": "https://www.mancity.com/meta/media/c3zbweqa/academy-contracts-wide.jpg?width=229&height=129&mode=crop",
+      "title": "Academy youngsters sign first professional contracts with City",
+      "subdesc": "EDS & ACADEMY"
+    },
+    {
+      "id": 19,
+      "img": "https://www.mancity.com/meta/media/mw5j3353/scholars-wide.jpg?&width=229&height=129&mode=crop",
+      "title": "12 ACADEMY PLAYERS SIGN SCHOLARSHIPS",
+      "subdesc": "EDS & ACADEMY"
+    },
+    {
+      "id": 17,
+      "img": "https://www.mancity.com/meta/media/vj4i5xca/portugal-training-4.jpg?width=229&height=129&mode=crop",
+      "title": "Training gallery: City's Academy continues pre-season prep",
+      "subdesc": "EDS & ACADEMY"
+    }
+  ]
+}

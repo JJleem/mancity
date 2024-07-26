@@ -120,8 +120,7 @@ export const RankNumber = styled.div`
 
   color: ${({ theme }) => theme.colors.TitleColor};
   padding: 15px;
-  /* border: 2px solid ${({ theme }) => theme.colors.TitleColor}; */
-  /* box-shadow: 0px 0px 3px #000; */
+
   background: url(${rank});
   background-repeat: no-repeat;
   background-size: cover;
@@ -212,6 +211,11 @@ export const ListSection = styled.div`
   transition: all 0.5s;
   &:hover {
     background: ${({ theme }) => theme.colors.middle_Skyblue};
+  }
+  &:nth-child(1) {
+    &:hover {
+      background: transparent;
+    }
   }
   border-bottom: 1px solid ${({ theme }) => theme.colors.info_BG};
   &:nth-child(2) {

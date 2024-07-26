@@ -4,6 +4,9 @@ type Props = {
   isActive?: boolean;
   img?: string;
 };
+type imgsProps = {
+  imgs: string[];
+};
 export const SliderContainer = styled.div`
   width: 100%;
   height: 100%;
@@ -35,7 +38,7 @@ export const SliderImg = styled.div<Props>`
   background-image: url(${({ img }) => img});
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 80% 100%;
+  background-size: cover;
   position: relative;
 
   @media ${({ theme }) => theme.mediaSize.xl} {
@@ -60,7 +63,7 @@ export const Overlay = styled.div`
     display: none;
   }
 `;
-export const StyleSlider = styled(Slider)<Props>`
+export const StyleSlider = styled(Slider)<imgsProps>`
   width: 100%;
   height: 100%;
   position: relative;
@@ -72,29 +75,29 @@ export const StyleSlider = styled(Slider)<Props>`
     width: fit-content;
     height: fit-content;
     bottom: 10px;
-    right: 56px;
+    right: 48px;
     padding: 0 !important;
 
     gap: 0;
     padding-right: 30px;
     li:nth-child(1) {
       button {
-        background-image: url("https://www.mancity.com/meta/media/01ibqb4w/pg-wide-overlay.jpg?width=1620");
+        background-image: url(${({ imgs }) => imgs[0]});
       }
     }
     li:nth-child(2) {
       button {
-        background-image: url("https://www.mancity.com/meta/media/tloazxvl/celtic-lead.jpg?width=645&height=364&mode=crop");
+        background-image: url(${({ imgs }) => imgs[1]});
       }
     }
     li:nth-child(3) {
       button {
-        background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/230517173313-06-champions-league-man-city-real-madrid-semifinals-spt-intl.jpg?c=original");
+        background-image: url(${({ imgs }) => imgs[2]});
       }
     }
     li:nth-child(4) {
       button {
-        background-image: url("https://www.mancity.com/meta/media/sinice2v/inside-city-wide.jpg?width=645&height=364&mode=crop");
+        background-image: url(${({ imgs }) => imgs[3]});
       }
     }
   }
@@ -215,13 +218,13 @@ export const StyleSlider = styled(Slider)<Props>`
 `;
 export const SliderDesc = styled.div`
   width: 400px;
-  height: 295px;
+  height: 300px;
   background: rgba(0, 24, 56, 1);
 
   position: absolute;
-  top: 623px;
+  top: 619px;
   z-index: 99;
-  left: 56px;
+  left: 48px;
   color: ${({ theme }) => theme.colors.White};
   font-weight: 700;
   font-size: ${({ theme }) => theme.fontSize.p30};

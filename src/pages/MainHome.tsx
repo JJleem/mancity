@@ -13,6 +13,9 @@ import {
   Gif,
   GifTwo,
 } from "../Component/MainHome/mainNews/StyleMainNewsSection";
+import MainWomen from "../Component/MainHome/MainWomen/MainWomen";
+import MainEds from "../Component/MainHome/MainEDS/MainEds";
+import MainPartners from "../Component/MainHome/MainPartners/MainPartners";
 
 const MainHome = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -25,7 +28,7 @@ const MainHome = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  console.log(scrollY);
+
   return (
     <MainHomeContainer>
       <MainHomeInner>
@@ -36,6 +39,9 @@ const MainHome = () => {
       <Gif scroll={scrollY} />
       <MainNewsSection />
       <GifTwo scroll={scrollY} />
+      <MainWomen />
+      <MainEds />
+      <MainPartners />
       <Footer />
     </MainHomeContainer>
   );

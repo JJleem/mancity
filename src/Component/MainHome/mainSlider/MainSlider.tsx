@@ -8,7 +8,7 @@ import {
   SliderDescSub,
   SliderDescTitle,
 } from "./StyleMainSlider";
-
+import db from "../../../data/db.json";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React, { useEffect, useRef, useState } from "react";
@@ -43,35 +43,35 @@ const MainSlider = () => {
     null
   );
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
-  const [subText, setSubText] = useState<string>(
-    "GUARDIOLA GIVES TRANSFER UPDATE"
-  );
-  const [subDesc, setSubDesc] = useState<string>("Interview");
+  const [subText, setSubText] = useState<string>(`${db.news[0].title}`);
+  const [subDesc, setSubDesc] = useState<string>(`${db.news[0].subdesc}`);
   const navigate = useNavigate();
-  const [go, setGo] = useState("/news/1");
+  const [go, setGo] = useState(`/news/${db.news[0].id}`);
   const handleGo = () => {
     navigate(go);
   };
+
   const updateSubText = (index: number | null) => {
     switch (index) {
       case 0:
-        setSubText("GUARDIOLA GIVES TRANSFER UPDATE");
-        setGo("/news/1");
+        setSubText(`${db.news[0].title}`);
+        setGo(`/news/${db.news[0].id}`);
+        setSubDesc(`${db.news[0].subdesc}`);
         break;
       case 1:
-        setSubText("CITY EDGED OUT IN SEVEN-GOAL CELTIC THRILLER");
-        setGo("/news/2");
-        setSubDesc("Match Report");
+        setSubText(`${db.news[1].title}`);
+        setGo(`/news/${db.news[1].id}`);
+        setSubDesc(`${db.news[1].subdesc}`);
         break;
       case 2:
-        setSubText("INSIDE CITY EPISODE 468: CITY BEGIN OUR US TOUR!");
-        setGo("/news/3");
-        setSubDesc("BEHIND THE SCENES");
+        setSubText(`${db.news[2].title}`);
+        setGo(`/news/${db.news[2].id}`);
+        setSubDesc(`${db.news[2].subdesc}`);
         break;
       case 3:
-        setSubText("INSIDE CITY EPISODE 468: CITY BEGIN OUR US TOUR!");
-        setGo("/news/3");
-        setSubDesc("BEHIND THE SCENES");
+        setSubText(`${db.news[3].title}`);
+        setGo(`/news/${db.news[3].id}`);
+        setSubDesc(`${db.news[3].subdesc}`);
         break;
       default:
         setSubText("GUARDIOLA GIVES TRANSFER UPDATE");
@@ -112,8 +112,9 @@ const MainSlider = () => {
       observer.disconnect();
     };
   }, []);
+  const imageUrls = db.news.map((newsItem) => newsItem.img);
   return (
-    <SliderContainer className="slider-container">
+    <>
       <SliderDesc>
         <SliderDescSub>
           <p>{subDesc}</p>
@@ -145,53 +146,18 @@ const MainSlider = () => {
           </svg>
         </SliderDescTitle>
       </SliderDesc>
-      <StyleSlider ref={sliderRef} {...settings}>
-        <Sliders>
-          <SliderImg
-            img={
-              "https://www.mancity.com/meta/media/01ibqb4w/pg-wide-overlay.jpg?width=1620&mode=fill"
-            }
-          >
-            <Overlay />
-          </SliderImg>
-        </Sliders>
-        <Sliders>
-          <SliderImg
-            img={
-              "https://www.mancity.com/meta/media/tloazxvl/celtic-lead.jpg?width=1620&&mode=fill"
-            }
-          >
-            <Overlay />
-          </SliderImg>
-        </Sliders>
-        <Sliders>
-          <SliderImg
-            img={
-              "https://media.cnn.com/api/v1/images/stellar/prod/230517173313-06-champions-league-man-city-real-madrid-semifinals-spt-intl.jpg?c=original"
-            }
-          >
-            <Overlay />
-          </SliderImg>
-        </Sliders>
-        <Sliders>
-          <SliderImg
-            img={
-              "https://www.mancity.com/meta/media/sinice2v/inside-city-wide.jpg?width=1620&mode=fill"
-            }
-          >
-            <Overlay />
-          </SliderImg>
-        </Sliders>
-      </StyleSlider>
-      {/* <div style={{ textAlign: "center" }}>
-    <button className="button" onClick={play}>
-      Play
-    </button>
-    <button className="button" onClick={pause}>
-      Pause
-    </button>
-  </div> */}
-    </SliderContainer>
+      <SliderContainer className="slider-container">
+        <StyleSlider ref={sliderRef} {...settings} imgs={imageUrls}>
+          {db.news.map((newsItem, index) => (
+            <Sliders key={index}>
+              <SliderImg img={newsItem.img}>
+                <Overlay />
+              </SliderImg>
+            </Sliders>
+          ))}
+        </StyleSlider>
+      </SliderContainer>
+    </>
   );
 };
 
