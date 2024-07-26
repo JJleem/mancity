@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Opacity } from "../../../pages/StyleMainHome";
+import { Opacity } from "../../../pages/MainHome/StyleMainHome";
 import { css } from "styled-components";
 export type scrollProps = {
   scroll: number;
@@ -85,6 +85,26 @@ export const TitleBox = styled.div<imgsProps>`
   &:nth-child(3) {
     div {
       background-image: url(${({ imgs }) => imgs[2]});
+    }
+  }
+  &:nth-child(4) {
+    div {
+      background-image: url(${({ imgs }) => imgs[3]});
+    }
+  }
+  &:nth-child(5) {
+    div {
+      background-image: url(${({ imgs }) => imgs[4]});
+    }
+  }
+  &:nth-child(6) {
+    div {
+      background-image: url(${({ imgs }) => imgs[5]});
+    }
+  }
+  &:nth-child(7) {
+    div {
+      background-image: url(${({ imgs }) => imgs[6]});
     }
   }
 `;

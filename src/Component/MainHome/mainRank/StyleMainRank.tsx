@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { Opacity } from "../../../pages/StyleMainHome";
+import { Opacity } from "../../../pages/MainHome/StyleMainHome";
 import epl from "../../../assets/img/logo/epl.png";
 import rank from "../../../assets/img/bg/rank.png";
 import ranksm from "../../../assets/img/bg/ranksm.png";

@@ -23,7 +23,7 @@ const Header = () => {
 
         <MenuSection>
           <li>
-            <Link to="/">NEWS</Link>
+            <Link to="/news">NEWS</Link>
           </li>
           <li>
             <Link to="/">VIDEO</Link>

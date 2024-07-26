@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { Opacity } from "../../../pages/StyleMainHome";
+import { Opacity } from "../../../pages/MainHome/StyleMainHome";
 import { scrollProps } from "../mainNews/StyleMainNewsSection";
 
 export const WomenWrapper = styled.div`

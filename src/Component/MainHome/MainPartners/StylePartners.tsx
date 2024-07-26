@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 import { scrollProps } from "../mainNews/StyleMainNewsSection";
-import { Opacity } from "../../../pages/StyleMainHome";
+import { Opacity } from "../../../pages/MainHome/StyleMainHome";
 type imgprops = {
   img?: string;
 };

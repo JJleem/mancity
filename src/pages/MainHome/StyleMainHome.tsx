@@ -32,7 +32,7 @@ export const MainHomeInner = styled.div`
   width: 100%;
 
   /* padding: 0 18px; */
-  height: 100vh;
+
   display: flex;
 
   justify-content: center;

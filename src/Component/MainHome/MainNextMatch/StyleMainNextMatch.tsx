@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { Opacity } from "../../../pages/StyleMainHome";
+import { Opacity } from "../../../pages/MainHome/StyleMainHome";
 type scrollProps = {
   scroll: number;
 };
