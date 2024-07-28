@@ -131,5 +131,50 @@
       "title": "Training gallery: City's Academy continues pre-season prep",
       "subdesc": "EDS & ACADEMY"
     }
+  ],
+  "newsPage": [
+    {
+      "id": 1,
+      "img": "https://www.mancity.com/meta/media/jgnjvra5/cp-lead.jpg?width=1920&mode=crop",
+      "title": "US Tour: Training in Central Park",
+      "subdesc": "Picture Special"
+    },
+
+    {
+      "id": 2,
+      "img": "https://www.mancity.com/meta/media/tloazxvl/celtic-lead.jpg?width=1920&&mode=fill",
+      "title": "CITY EDGED OUT IN SEVEN-GOAL CELTIC THRILLER",
+      "subdesc": "Match Report"
+    },
+    {
+      "id": 3,
+      "img": "https://www.mancity.com/meta/media/01ibqb4w/pg-wide-overlay.jpg?width=1920&mode=fill",
+      "title": "GUARDIOLA GIVES TRANSFER UPDATE",
+      "subdesc": "Interview"
+    },
+    {
+      "id": 4,
+      "img": "https://www.mancity.com/meta/media/sinice2v/inside-city-wide.jpg?width=1920&mode=fill",
+      "title": "INSIDE CITY EPISODE 468: CITY BEGIN OUR US TOUR!",
+      "subdesc": "BEHIND THE SCENES"
+    },
+    {
+      "id": 5,
+      "img": "https://www.mancity.com/meta/media/3ihduq03/celtic-extended-wide.jpg?&height=172&mode=crop",
+      "title": "CITY 3-4 CELTIC: EXTENDED HIGHLIGHTS",
+      "subdesc": "MATCH HIGHLIGHTS"
+    },
+    {
+      "id": 6,
+      "img": "https://www.mancity.com/meta/media/mw5j3353/scholars-wide.jpg?&height=172&mode=crop",
+      "title": "12 ACADEMY PLAYERS SIGN SCHOLARSHIPS",
+      "subdesc": "EDS & ACADEMY"
+    },
+    {
+      "id": 7,
+      "img": "https://www.mancity.com/meta/media/1vskt45k/pep-vid.jpg?&height=172&mode=crop",
+      "title": "Guardiola: Bobb has incredible potential",
+      "subdesc": "INTERVIEWS"
+    }
   ]
 }

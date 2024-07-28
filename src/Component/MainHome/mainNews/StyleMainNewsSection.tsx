@@ -5,7 +5,7 @@ export type scrollProps = {
   scroll: number;
 };
 type imgsProps = {
-  imgs: string[];
+  imgs: string;
 };
 export const NewsSection = styled.div<scrollProps>`
   width: 100%;
@@ -58,60 +58,31 @@ export const TitleNewsBox = styled.div`
     gap: 24px;
   }
 `;
-export const TitleBox = styled.div<imgsProps>`
+export const TitleBox = styled.div`
   width: 34%;
   display: flex;
   flex-direction: column;
 
+  padding-top: 24px;
   justify-content: space-between;
   color: ${({ theme }) => theme.colors.TitleColor};
   font-weight: 700;
   gap: 5px;
+  transition: all 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.point_Skyblue};
+  }
   @media ${({ theme }) => theme.mediaSize.md} {
     width: 100%;
     justify-content: center;
     align-items: center;
   }
-  &:nth-child(1) {
-    div {
-      background-image: url(${({ imgs }) => imgs[0]});
-    }
-  }
-  &:nth-child(2) {
-    div {
-      background-image: url(${({ imgs }) => imgs[1]});
-    }
-  }
-  &:nth-child(3) {
-    div {
-      background-image: url(${({ imgs }) => imgs[2]});
-    }
-  }
-  &:nth-child(4) {
-    div {
-      background-image: url(${({ imgs }) => imgs[3]});
-    }
-  }
-  &:nth-child(5) {
-    div {
-      background-image: url(${({ imgs }) => imgs[4]});
-    }
-  }
-  &:nth-child(6) {
-    div {
-      background-image: url(${({ imgs }) => imgs[5]});
-    }
-  }
-  &:nth-child(7) {
-    div {
-      background-image: url(${({ imgs }) => imgs[6]});
-    }
-  }
 `;
-export const TitleBoxImg = styled.div`
+export const TitleBoxImg = styled.div<imgsProps>`
   width: 100%;
   height: 172px;
-
+  background-image: url(${({ imgs }) => imgs});
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -251,7 +222,7 @@ export const SubNewsGrid = styled.div`
     grid-template-columns: repeat(1, 1fr);
   }
 `;
-export const SubBox = styled.div<imgsProps>`
+export const SubBox = styled.div`
   display: flex;
   height: 100%;
   justify-content: space-between;
@@ -291,43 +262,14 @@ export const SubBox = styled.div<imgsProps>`
   div {
     background-size: contain;
   }
-  &:nth-child(1) {
-    div {
-      background-image: url(${({ imgs }) => imgs[0]});
-    }
-  }
-  &:nth-child(2) {
-    div {
-      background-image: url(${({ imgs }) => imgs[1]});
-    }
-  }
-  &:nth-child(3) {
-    div {
-      background-image: url(${({ imgs }) => imgs[2]});
-    }
-  }
-  &:nth-child(4) {
-    div {
-      background-image: url(${({ imgs }) => imgs[3]});
-    }
-  }
-  &:nth-child(5) {
-    div {
-      background-image: url(${({ imgs }) => imgs[4]});
-    }
-  }
-  &:nth-child(6) {
-    div {
-      background-image: url(${({ imgs }) => imgs[5]});
-    }
-  }
+
   @media ${({ theme }) => theme.mediaSize.md} {
     align-items: center;
     padding-top: 10px;
     justify-content: center;
   }
 `;
-export const SubBoxBig = styled.div<imgsProps>`
+export const SubBoxBig = styled.div`
   display: flex;
   height: 100%;
   justify-content: space-between;
@@ -358,18 +300,16 @@ export const SubBoxBig = styled.div<imgsProps>`
     font-size: ${({ theme }) => theme.fontSize.p14};
     color: ${({ theme }) => theme.colors.sub_text};
   }
-  div {
-    background-image: url(${({ imgs }) => imgs[0]});
-  }
+
   @media ${({ theme }) => theme.mediaSize.md} {
     align-items: center;
     justify-content: center;
   }
 `;
-export const TitleBoxImgBig = styled.div`
+export const TitleBoxImgBig = styled.div<imgsProps>`
   width: 100%;
   height: 88.5%;
-
+  background-image: url(${({ imgs }) => imgs});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

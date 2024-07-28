@@ -54,9 +54,8 @@ const MainNewsSection = () => {
             <TitleBox
               key={newsItem.id}
               onClick={() => onNews(`/news/${newsItem.id}`)}
-              imgs={newsMainImg}
             >
-              <TitleBoxImg>
+              <TitleBoxImg imgs={newsItem.img}>
                 <TitleBoxOverlay>
                   <span>
                     <svg
@@ -78,10 +77,9 @@ const MainNewsSection = () => {
           {db.newsSubBig.map((newsItem, index) => (
             <SubBoxBig
               key={newsItem.id}
-              imgs={newsSubBigImg}
               onClick={() => onNews(`/news/${newsItem.id}`)}
             >
-              <TitleBoxImgBig></TitleBoxImgBig>
+              <TitleBoxImgBig imgs={newsItem.img}></TitleBoxImgBig>
               <p>{newsItem.title}</p>
               <span>{newsItem.subdesc}</span>
             </SubBoxBig>
@@ -91,10 +89,9 @@ const MainNewsSection = () => {
             {db.newsSub.map((newsItem, index) => (
               <SubBox
                 key={newsItem.id}
-                imgs={newsSubImg}
                 onClick={() => onNews(`/news/${newsItem.id}`)}
               >
-                <TitleBoxImg></TitleBoxImg>
+                <TitleBoxImg imgs={newsItem.img}></TitleBoxImg>
                 <p>{newsItem.title}</p>
                 <span>{newsItem.subdesc}</span>
               </SubBox>

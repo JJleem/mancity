@@ -21,6 +21,7 @@
 //   sixdesc: string;
 //   sixdesc2: string;
 // }
+
 declare module "./db.json" {
   export interface Db {
     news?: {
@@ -32,4 +33,26 @@ declare module "./db.json" {
   }
   const db: Db;
   export default db;
+}
+declare module "./newsDb.json" {
+  interface Topics {
+    [key: string]: string;
+  }
+  export interface NewsDb {
+    newsPage?: {
+      id: number;
+      img: string;
+      title: string;
+      subdesc: string;
+      type: string;
+      date: string;
+      TitleOne?: string;
+      TitleTwo?: string;
+      DescOne?: string;
+      DescTwo?: string;
+      topics?: Topics;
+    }[];
+  }
+  const Newsdb: NewsDb;
+  export default Newsdb;
 }

@@ -55,9 +55,8 @@ const MainWomen = () => {
               <TitleBox
                 key={newsItem.id}
                 onClick={() => onNews(`/news/${newsItem.id}`)}
-                imgs={WomenNewsImg}
               >
-                <TitleBoxImg>
+                <TitleBoxImg imgs={newsItem.img}>
                   <TitleBoxOverlay>
                     <span style={{ width: "48px", height: "48px" }}>
                       <svg
