@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 type imgProps = {
-  imgs: string;
+  imgs?: string;
 };
 export const NewsDetailContainer = styled.div`
   width: 100%;
-
+  height: 100%;
   padding-top: 78px;
 
   position: relative;
@@ -25,6 +25,26 @@ export const NewsDetailImg = styled.div<imgProps>`
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  @media ${({ theme }) => theme.mediaSize.lg} {
+    width: 976px;
+  }
+  @media ${({ theme }) => theme.mediaSize.md} {
+    width: 730px;
+    height: 448px;
+  }
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    width: 442px;
+    height: 300px;
+  }
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    width: 346px;
+    height: 300px;
+  }
+`;
+export const YoutubeVideo = styled.div`
+  width: 1024px;
+  height: 600px;
+
   @media ${({ theme }) => theme.mediaSize.lg} {
     width: 976px;
   }
@@ -77,6 +97,7 @@ export const GobackSection = styled.div`
 `;
 export const NewsDetailSection = styled.div`
   width: 1024px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,6 +118,7 @@ export const NewsDetailSection = styled.div`
 `;
 export const NewsDetailInner = styled.div`
   width: 100%;
+  height: 100%;
 `;
 export const NewsDetailInfoInner = styled.div`
   display: flex;
@@ -119,6 +141,15 @@ export const NewsDetailTitleText = styled.div`
   }
   @media ${({ theme }) => theme.mediaSize.sm} {
     font-size: ${({ theme }) => theme.fontSize.p22};
+  }
+  a {
+    transition: all 0.3s;
+    color: ${({ theme }) => theme.colors.point_Skyblue};
+    text-decoration: underline;
+
+    &:hover {
+      color: #000;
+    }
   }
 `;
 export const NewsDetailSubTitle = styled.div`
@@ -253,4 +284,41 @@ export const ShareList = styled.div`
       }
     }
   }
+`;
+export const PictureSpecial = styled.div`
+  display: flex;
+  width: 100%;
+  margin-bottom: 24px;
+  gap: 12px;
+`;
+export const PictureText = styled.div`
+  width: 22%;
+  border-top: 1px solid ${({ theme }) => theme.colors.info_BG};
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    font-size: ${({ theme }) => theme.fontSize.p14};
+  }
+`;
+export const Picture = styled.div<imgProps>`
+  width: 78%;
+  height: 600px;
+  background: url(${({ imgs }) => imgs});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media ${({ theme }) => theme.mediaSize.lg} {
+    height: 450px;
+  }
+  @media ${({ theme }) => theme.mediaSize.md} {
+    height: 448px;
+  }
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    height: 300px;
+  }
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    height: 300px;
+  }
+`;
+export const PictureSpecialNum = styled.div`
+  font-size: ${({ theme }) => theme.fontSize.p76};
+  font-weight: 900;
 `;

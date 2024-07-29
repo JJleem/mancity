@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   HeaderContainer,
   HeaderInner,
@@ -8,12 +8,20 @@ import {
   IconSection,
   MenuSection,
 } from "./StyleHeader";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import language from "../../../assets/img/icon/language.png";
 import account from "../../../assets/img/icon/account_circle.png";
 import sponser from "../../../assets/img/icon/wix_homepage_v2.png.png";
 import toggle from "../../../assets/img/icon/toggle.png";
+
 const Header = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
+  console.log(location.pathname); // 현재 경로 출력
   return (
     <HeaderContainer>
       <HeaderInner>
@@ -26,10 +34,10 @@ const Header = () => {
             <Link to="/news">NEWS</Link>
           </li>
           <li>
-            <Link to="/">VIDEO</Link>
+            <Link to="/video">VIDEO</Link>
           </li>
           <li>
-            <Link to="/">FIXTURES</Link>
+            <Link to="/fixures">FIXTURES</Link>
           </li>
           <li>
             <Link to="/">TICKETS</Link>

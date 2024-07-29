@@ -51,6 +51,8 @@ declare module "./newsDb.json" {
       DescOne?: string;
       DescTwo?: string;
       topics?: Topics;
+      videoId?: string;
+      picture?: Topics;
     }[];
   }
   const Newsdb: NewsDb;

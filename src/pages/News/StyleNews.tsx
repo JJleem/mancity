@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Opacity } from "../MainHome/StyleMainHome";
 type isClick = {
   isClick: boolean;
 };

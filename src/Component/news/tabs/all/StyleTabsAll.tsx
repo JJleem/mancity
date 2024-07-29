@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Opacity } from "../../../../pages/MainHome/StyleMainHome";
 
 export const NewsWrap = styled.div`
   display: grid;
@@ -19,6 +20,10 @@ export const NewsContainer = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 48px;
+  opacity: 0;
+  animation-delay: 0.1s;
+  animation: ${Opacity} 1.5s ease-in-out;
+  animation-fill-mode: forwards;
 `;
 export const SeeMoreSection = styled.div`
   width: 100%;

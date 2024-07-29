@@ -18,6 +18,28 @@
         "4": "Open Training",
         "5": "USATour2024",
         "6": "Manchester City"
+      },
+      "picture": {
+        "pic1": "https://www.mancity.com/meta/media/zihnlbft/cp-2.jpg?",
+        "sub1": "THE BOSS : Pep Guardiola prepares for the session",
+        "pic2": "https://www.mancity.com/meta/media/vn2lerso/cp-9.jpg?",
+        "sub2": "EN ROUTE : Kalvin Phillips and Stefan Ortega Moreno smile for the camera",
+        "pic3": "https://www.mancity.com/meta/media/aj0fixmi/cp-16.jpg?",
+        "sub3": "CENTRAL PARK : A stunning location for training!",
+        "pic4": "https://www.mancity.com/meta/media/anbdgs0b/cp-4.jpg?",
+        "sub4": "STRETCHING OUT : Warming up for the session",
+        "pic5": "https://www.mancity.com/meta/media/xxkhft1s/cp-1.jpg?",
+        "sub5": "KEEPY-UPPIES : The players get a feel for the ball",
+        "pic6": "https://www.mancity.com/meta/media/kklmdikh/cp-10.jpg?",
+        "sub6": "ALL SMILES : Rico Lewis in high spirits",
+        "pic7": "https://www.mancity.com/meta/media/aoejzgeo/cp-6.jpg?",
+        "sub7": "PACE : Jack Grealish accelerates",
+        "pic8": "https://www.mancity.com/meta/media/c5mf32ha/cp-8.jpg?",
+        "sub8": "PERSPECTIVE : Erling Haaland towering over the New York skyline!",
+        "pic9": "https://www.mancity.com/meta/media/auknvuoe/cp-5.jpg?",
+        "sub9": "EYES ON THE PRIZE : Ederson brings the ball under control",
+        "pic10": "https://www.mancity.com/meta/media/jsensxvu/cp-12.jpg?",
+        "sub10": "NEW ARRIVAL : Josko Gvardiol pictured during his first session of the tour"
       }
     },
 
@@ -26,14 +48,31 @@
       "img": "https://www.mancity.com/meta/media/tloazxvl/celtic-lead.jpg?width=1920&&mode=fill",
       "title": "CITY EDGED OUT IN SEVEN-GOAL CELTIC THRILLER",
       "subdesc": "Match Report",
-      "type": "men"
+      "type": "men",
+      "date": "Tue 23 Jul 2024, 11:20",
+      "TitleOne": "Manchester City's pre-season tour of the United States began with a 4-3 defeat to Celtic in North Carolina.",
+      "DescOne": "A first half brace from Nicolas Kuhn and smart Kyogo Furuhashi finish meant City went in behind at the break despite Oscar Bobb also finding the net.\n\nWith Celtic’s Scottish Premier League season getting under way in just over one week, their extra sharpness initially told in the Kenan Memorial Stadium’s North Carolina heat.\n\nA defiant second half display, spearheaded by the irrepressible Bobb, pulled City level though with Maximo Perrone and Erling Haaland both on target, but the Scottish champions found a winner through substitute Luis Palma.\n\n",
+      "TitleTwo": "WHAT HAPPENED",
+      "DescTwo": "With Haaland named captain, Pep Guardiola named a starting XI with a strong mix of experienced internationals and exciting academy talent.\n\nYoungsters Simpson-Pusey and O’Reilly were each handed their senior debuts from the start, and the latter almost grabbed the game’s opening goal inside three minutes when he fired into the side netting after a swift counter.\n\nBut despite that bright start it was the Scottish champions who would take the lead ten minutes later.\n\nIt was sparked when Kuhn found some space down the City left and raced towards goal, firing into the far corner despite pressure from Josh Wilson-Esbrand.\n\nCeltic had enjoyed the early exchanges, with their additional minutes so far in pre-season showing as Guardiola’s men gradually began to find our feet.\n\nThe next big chance would fall our way though, with former City goalkeeper Kasper Schmeichel pulling off an excellent reaction save to deny Haaland.\n\nThe individual battle between our captain and the Celtic stopper continued with the Dane pulling off another phenomenal one-v-one stop as Haaland tried to chip home, but City were beginning to find our rhythm as the half hour mark approached.\n\nAnd the pressure told soon after when O’Reilly’s clever cut-back was dummied by Haaland into the path of an unmarked Bobb.\n\nThe Norwegian’s effort had the sting taken out of it by the onrushing Schmeichel, but still had enough power to trickle into the Celtic net for the equaliser.",
+      "Imgtwo": "https://www.mancity.com/meta/media/unskbsjo/haaland-celtic.jpg?rmode=max",
+      "TitleThree": "HOW WE LINED UP",
+      "DescThree": "Stefan Ortega Moreno’s goal was shielded by a back four of Rico Lewis, Jahmai Simpson-Pusey, Luke Mbete and Josh Wilson-Esbrand.\n\nKalvin Phillips sat at the base of a midfield three, giving licence to James McAtee and Nico O’Reilly to get forward and join the attack.\n\nAt the sharp end, Oscar Bobb and Jack Grealish started on the flanks, with Erling Haaland at centre-forward.\n\nCity XI: Ortega Moreno (Ederson 46’), Lewis (Katongo 64’), Simpson-Pusey, Mbete (Doyle 46’), Wilson-Esbrand (Wright 64’), Phillips (Susoho 46’), O’Reilly (Perrone 46’), McAtee (Ndala 46’), Bobb, Grealish (Knight 68’), Haaland (C) (Hamilton 68’).\n\nSubs: Carson, Galvez, Oboavwoduo, Heskey, Fatah, Mfuni, Samuel.\n\nCeltic XI: Schmeichel (Sinisalo 46’), Ralston (Donovan 46’), Welsh (Lagerbielke 64’), Scales (Kobayashi 64’), Taylor, McGregor (C) (Anderson 64’), O’Riley, Hatate (Kwon 64’), Kuhn (Forrest 46’), Maeda, Kyogo (Palma 64’).\n\nSubs: Bain, Holm, Yang, Tomoki, Lawal, Murray, Dede, Turley, M. Johnston.",
+      "topics": {
+        "1": "News",
+        "2": "Men's Team",
+        "3": "Match Report",
+        "4": "Celtic",
+        "5": "USATour2024",
+        "6": "Manchester City"
+      }
     },
     {
       "id": 3,
       "img": "https://www.mancity.com/meta/media/01ibqb4w/pg-wide-overlay.jpg?width=1920&mode=fill",
       "title": "GUARDIOLA GIVES TRANSFER UPDATE",
-      "subdesc": "Interview",
+      "subdesc": "INTERVIEWS",
       "type": "men",
+      "videoId": "r1qsC0pxuSg",
       "date": "Tue 23 Jul 2024, 11:20",
       "TitleOne": "Pep Guardiola says wholesale changes to his Manchester City squad are unlikely during the current transfer window.",
       "DescOne": "City have made one signing so far this summer, with 20-year-old winger Savinho joining the club on a five-year deal.\n\nGuardiola admits there’s always a chance there could be incomings but says he is comfortable with his options and feels he has a good blend of talent and personality in his squad, which he feels is difficult to replace.\n\n“If someone leaves, we are going to talk about that and, of course, until the last day [of the transfer window] we have chances,” he said in a press conference ahead of our first pre-season Tour match against Celtic at the Keenan Memorial Stadium in Chapel Hill, North Carolina on Tuesday.\n\n “I don’t rule out new players as an option, but I think there is an 85, 90, 95% chance we will have the same squad.”\n\nMeanwhile the boss says Kevin De Bruyne will remain at City this season amid reports of an exit.\n\n“Kevin isn’t leaving,” Guardiola said.",
@@ -53,13 +92,29 @@
       "img": "https://www.mancity.com/meta/media/sinice2v/inside-city-wide.jpg?width=1920&mode=fill",
       "title": "INSIDE CITY EPISODE 468: CITY BEGIN OUR US TOUR!",
       "subdesc": "BEHIND THE SCENES",
-      "type": "men"
+      "type": "men",
+      "date": "Thu 25 Jul 2024, 07:00",
+
+      "videoId": "p_V1IJaNdYY",
+      "TitleOne": "A behind-the-scenes look at another busy week for Manchester City, focusing on the first leg of our United States pre-season tour.",
+      "DescOne": "Pep Guardiola’s men touched down in North Carolina ahead of the first of four friendlies on our tour, against Scottish champions Celtic.\n\nIt was straight to work the following day, with the players taking part in the first training and gym session of our US tour.\n\nA selection of players travelled to the North Carolina children’s hospital the following day, with Erling Haaland, Kalvin Phillips, Nico O’Reilly and Mahamadou Susoho all chatting with patients and surprising them with gifts.\n\n Elsewhere, the Hulett Brothers, famous for their incredible trick shot videos, paid a visit to the team’s hotel to test out their skills with a number of fun challenges.\n\n“The next day’s training session started with another light-hearted game, this time seeing Pep test out his players’ reaction skills with a clapping challenge.\n\nWith Haaland also celebrating his 24th birthday, the Norwegian was surprised by staff with a birthday cake, cutting out slices for his team-mates at the team meal that evening.\n\nAs preparations for our clash with Celtic continued, the players took part in the first Open Training session of our US Tour in front of fans at WakeMed Soccer Park before stopping to sign autographs and take pictures.\n\nBut the waiting was over, it was finally time for our first pre-season friendly against Celtic at the Kenan Memorial Stadium.\n\nThe Scottish champions’ advanced sharpness told in the end, as they ran out 4-3 winners on the night, but there were plenty of positives to take from the performance.\n\nOur cameras were allowed onto the pitch to celebrate when City found the back of the net, leading to some incredible immersive shots from each goal, while legendary Boston Celtics head coach Joe Mazzulla was also invited as a guest of the Club.\n\nCheck out the latest episode of Inside City via the video above…",
+      "TitleTwo": "",
+      "DescTwo": "",
+      "topics": {
+        "1": "Video",
+        "2": "Men's Team",
+        "3": "Behind the Scenes",
+        "4": "Inside City",
+        "5": "USATour2024",
+        "6": "Manchester City"
+      }
     },
     {
       "id": 5,
       "img": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/10228001001/99e59e84-9e60-4c43-9f37-9ed9064c2da4/d4ba02e1-46e0-4811-a5b0-70ce0f1833d6/810x456/match/image.jpg",
       "title": "CITY 3-4 CELTIC: EXTENDED HIGHLIGHTS",
       "subdesc": "MATCH HIGHLIGHTS",
+      "videoId": "xiYjs_JPFg4",
       "type": "men",
       "date": "Wed 24 Jul 2024, 02:45",
       "TitleOne": "Manchester City's pre-season tour of the United States began with a 4-3 defeat to Celtic in North Carolina.",
@@ -77,24 +132,86 @@
     },
     {
       "id": 6,
-      "img": "https://www.mancity.com/meta/media/mw5j3353/scholars-wide.jpg?&height=172&mode=crop",
+      "img": "https://www.mancity.com/meta/media/mw5j3353/scholars-wide.jpg?width=1280",
       "title": "12 ACADEMY PLAYERS SIGN SCHOLARSHIPS",
       "subdesc": "EDS & ACADEMY",
-      "type": "men"
+      "type": "eds",
+      "date": "Wed 24 Jul 2024, 18:00",
+      "TitleOne": "City’s Academy saw 12 players sign scholarships ahead of the 2024/25 season.",
+      "DescOne": "Kaden Braithwaite, Seth Chingwaro, Charlie Courtman, Leke Drake, Reigan Heskey, Max Hudson, Jayden Lienou, Stephen Mfuni, Kylan Midwood, Tyrone Samba, Oliver Tevenan and Oliver Whatmuff are the latest cohort to become City scholars.\n\nThe scholarship means they are now on full-time schedules with City, with a varying wealth of experience across the latest crop highlighting the exciting prospective players the Club has progressing through the ranks.  \n\nStephen Mfuni spent the 2023/24 campaign as the youngest player in the Under-18s squad, aged 15. He also featured in Premier League 2, the UEFA Youth League and FA Youth Cup, scoring in the final of the latter as City ran out 4-0 winners against Leeds United. And the now 16-year-old is gaining experience while on the US Tour with Pep Guardiola’s first-team.\n\nReigan Heskey, the brother of last season’s Under-18s captain Jaden, made his debut in the UEFA Youth League. He converted from the penalty spot in City’s 3-0 group-stage win over Young Boys to top off an impressive performance by the young Blues.  \n\nHeskey, alongside Braithwaite, Chingwaro, Drake, Samba and Whatmuff, have all had a brief taste of Under-18s football also, having made their debuts in the Under-18 Premier League North in the latter stages of the 2023/24 campaign.  \n\nCourtman, Hudson, Lienou, Midwood and Tevenan will gain their first experience of Under-18s football under new Lead Coach Oliver Reiss in the 2024/25 season.   \n\nAhead of the upcoming campaign, all 12 players received a Manchester City cap and signed their scholarship deals in front of their family and friends at the Academy’s scholar signing event at the City Football Academy over the summer.   \n\nThe players were pictured with their caps, which they were presented by Academy Director Thomas Krucken.   \n\nCheck out the gallery below of the newest cohort of City’s scholars…   ",
+      "TitleTwo": "",
+      "DescTwo": "",
+      "topics": {
+        "1": "Video",
+        "2": "Men's Team",
+        "3": "Behind the Scenes",
+        "4": "Open Training",
+        "5": "USATour2024",
+        "6": "Manchester City"
+      },
+      "picture": {
+        "pic1": "https://www.mancity.com/meta/media/4xtdbdsv/max-hudson.jpg",
+        "sub1": "MAX HUDSON : Goalkeeper.",
+        "pic2": "https://www.mancity.com/meta/media/334pslxn/oliver-whatmuff.jpg",
+        "sub2": "OLIVER WHATMUFF : Goalkeeper.",
+        "pic3": "https://www.mancity.com/meta/media/rctm3vu4/kaden-braithwaite.jpg",
+        "sub3": "KADEN BRAITHWAITE : Defender.",
+        "pic4": "https://www.mancity.com/meta/media/cjlhpyi1/charlie-courtman.jpg",
+        "sub4": "CHARLIE COURTMAN : Defender.",
+        "pic5": "https://www.mancity.com/meta/media/ivbdbdue/leke-drake.jpg",
+        "sub5": "LEKE DRAKE : Defender.",
+        "pic6": "https://www.mancity.com/meta/media/vhrnezfw/jayden-lienou.jpg",
+        "sub6": "JAYDEN LIENOU : Defender.",
+        "pic7": "https://www.mancity.com/meta/media/ncgbppen/seth-chingwaro.jpg",
+        "sub7": "SETH CHINGWARO : Midfielder.",
+        "pic8": "https://www.mancity.com/meta/media/bmtdxysi/reigan-heskey.jpg",
+        "sub8": "REIGAN HESKEY : Forward.",
+        "pic9": "https://www.mancity.com/meta/media/0efj1xmn/kylan-midwood.jpg",
+        "sub9": "KYLAN MIDWOOD : Forward.",
+        "pic10": "https://www.mancity.com/meta/media/5oabaype/tyrone-samba.jpg",
+        "sub10": "TYRONE SAMBA : Forward."
+      }
     },
     {
       "id": 7,
-      "img": "https://www.mancity.com/meta/media/1vskt45k/pep-vid.jpg?&height=172&mode=crop",
+      "img": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/10228001001/a261d479-74ac-427d-ac9d-dd979b4b0c26/44864141-966d-4970-ada7-c9c5a17a7816/810x456/match/image.jpg",
       "title": "Guardiola: Bobb has incredible potential",
       "subdesc": "INTERVIEWS",
-      "type": "men"
+      "type": "men",
+      "date": "Mon 22 Jul 2024, 18:00",
+      "videoId": "0Ub_L18enj8",
+      "TitleOne": "Pep Guardiola heaped praise on Oscar Bobb after his standout performance in City’s pre-season opener against Celtic.",
+      "DescOne": "The Norwegian was involved in all three of City’s goals in our 4-3 defeat to the Scottish champions, setting up Maximo Perrone and Erling Haaland after grabbing our opener at the Kenan Memorial Stadium.\n\nStill just 21, Bobb’s display indicated that he’ll continue to blossom under Guardiola’s guidance following a breakout 2023/24 campaign.\n\nFor the boss, the midfielder’s performance was one of several positives in Chapel Hill, despite City ultimately being edged out in the first of our four US friendlies.\n\n “Yes of course,” Guardiola said when asked if he was pleased with Bobb’s progress.\n\n“Sometimes he’s a bit shy but when he plays without fear he has incredible potential.\n\n“He connected well, and Nico [O’Reilly] played well too.\n\n“You come here, and they were tough opponents. All of them will be, AC Milan, Barcelona, Chelsea, they have top players.\n\n“It’s steps, and it’s good to see the loan players, how they come back and behave and also the rhythm for the senior ones. Many things were good.”\n\nHear Pep Guardiola’s post-match thoughts in full via the video above…",
+      "TitleTwo": "USA TOUR 2024",
+      "DescTwo": "City face Celtic, AC Milan, Barcelona and Chelsea during the Club’s pre-season tour of the United States.\n\nAs always, mancity.com and the official app are the best places to keep across all things City during our time in the US.\n\nIncluding pre-match press conferences and live open training as well as detailed and varied in-game and post-friendly coverage of all our fixtures, our website and app provide fans with a complete City experience, all from one handy place.",
+      "topics": {
+        "1": "Video",
+        "2": "Men's Team",
+        "3": "Interviews",
+        "4": "Celtic",
+        "5": "USATour2024",
+        "6": "Manchester City"
+      }
     },
     {
       "id": 8,
       "img": "https://www.mancity.com/meta/media/w0mnu5us/foty_foden_16x9.png",
       "title": "FODEN NAMED PREMIER LEAGUE PLAYER OF THE SEASON",
       "subdesc": "Men's Team",
-      "type": "men"
+      "type": "men",
+      "date": "Sat 18 May 2024, 11:00",
+      "TitleOne": "Phil Foden has been named the 2023/24 Premier League Player of the Season.",
+      "DescOne": "The Manchester City midfielder has been recognised with the prestigious prize after enjoying an outstanding campaign in which he has played a key role in our bid to win what would be an historic fourth title consecutive Premier League men’s title.\n\nTIt has been the 23-year-old’s most impressive season yet with Foden underpinning City’s quest for what would a sixth title in seven years with 25 goals – the most prolific tally of his Etihad career to date - and 11 assists.\n\nApril’s brace of goals in our 4-0 win at Brighton also saw Foden pass the 50 goal Premier League landmark for the Club.\n\n23-year-old Foden has been at the heart of City’s superb form across the campaign with Pep Guardiola’s side still firmly in contention to lift both the Premier League and FA Cup, having already won the UEFA Super Cup and FIFA Club World Cup titles earlier this season.\n\nThe Academy graduate has also operated in a variety of positions for Guardiola’s team, demonstrating his supreme quality both being deployed wide and also operating in a more central creative role.\n\nThis latest plaudit comes on the back of Foden being voted the 2023/24 Football Writers’ Association Footballer of the Year earlier this month.\n\n“To win this award is an achievement that I am extremely proud of,” Foden said.\n\n“The Premier League is acknowledged as the greatest league in the world, and it is a pleasure to have been nominated with so many other great players who have all enjoyed special seasons for their clubs.\n\n“Overall, I’ve been very happy with the way I have played this season and really pleased that I have been able to contribute with the goals and assists throughout the season.\n\n“I’d like to thank all of the City staff, coaches and especially my teammates because without them this wouldn’t be possible.\n\n“And I would also like to take this opportunity to thank everyone who voted for me as the award means a lot.”\n\nRemarkably, it’s the fifth season in a row that a City player has won the prestigious prize.\n\nKevin De Bruyne collected the award in both 2019/20 and 2021/22, Ruben Dias was the recipient in 2020/21 while Erling Haaland took last year’s prize.\n\nVincent Kompany was also voted Player of the Season in 2011/12.\n\nEveryone at Manchester City would like to congratulate Phil on this latest prestigious accolade.",
+      "TitleTwo": "",
+      "DescTwo": "",
+      "topics": {
+        "1": "News",
+        "2": "Men's Team",
+        "3": "Phill Foden",
+        "4": "Premier League",
+        "5": "Award",
+        "6": "PFA"
+      }
     },
     {
       "id": 9,
@@ -118,17 +235,66 @@
     },
     {
       "id": 10,
-      "img": "https://www.mancity.com/meta/media/ipppkoa1/main.jpg?width=229&height=129&mode=crop",
+      "img": "https://www.mancity.com/meta/media/ipppkoa1/main.jpg?width=1280",
       "title": "Gallery: Recovery after Celtic clash",
       "subdesc": "PICTURE SPECIAL",
-      "type": "men"
+      "type": "men",
+      "date": "Wed 24 Jul 2024, 18:00",
+      "TitleOne": "View the best images from Manchester City's recovery session following our first match on pre-season tour.",
+      "DescOne": "Pep Guardiola‘s side kicked-off our time in the United States of America with a narrow 4-3 defeat to Celtic in a thrilling encounter in North Carolina. \n\nFollowing our maiden assignment in preparation of our Premier League pursuit in 2024/25, a number of our players took part in a recovery session. \n\nThis included time spent in the swimming pool to recuperate ahead of our meeting with AC Milan in New York on Saturday 27 July at 23:00 (UK) - with the fixture available to watch on CITY+.\n\n",
+      "TitleTwo": "USA TOUR 2024",
+      "DescTwo": "They were the only City players that didn’t make it into the knockout stage in Germany after a last-minute equaliser in their final match against Italy saw them suffer late heartbreak.\n\nAfter joining 12 months ago, both players made a big impact as we secured a record fourth Premier League title in a row as well as winning the European Super Cup and Club World Cup.\n\nPlaying at left-back, Gvardiol scored five goals in the final weeks of the season as we won our last 10 games to claim the title.",
+      "topics": {
+        "1": "Video",
+        "2": "Men's Team",
+        "3": "Behind the Scenes",
+        "4": "Open Training",
+        "5": "USATour2024",
+        "6": "Manchester City"
+      },
+      "picture": {
+        "pic1": "https://www.mancity.com/meta/media/mdopnged/recovery-1.jpg",
+        "sub1": "COLD : Rico Lewis takes a dip.",
+        "pic2": "https://www.mancity.com/meta/media/jt3phu3e/recovery-2.jpg",
+        "sub2": "SWIM : Nico O'Reilly recovers.",
+        "pic3": "https://www.mancity.com/meta/media/ou5gcrx0/recovery-3.jpg",
+        "sub3": "MIDFIELD MAESTRO : Jacob Wright takes a closer look.",
+        "pic4": "https://www.mancity.com/meta/media/lttd1zfn/recovery-4.jpg",
+        "sub4": "FOUNTAIN : Joel Ndala makes a splash!",
+        "pic5": "https://www.mancity.com/meta/media/2b3l4xg5/recovery-5.jpg?width=976",
+        "sub5": "RISING UP : Kalvin Phillips flies out of the water.",
+        "pic6": "https://www.mancity.com/meta/media/doeb0waa/recovery-6.jpg",
+        "sub6": "THE BUOYS : Erling Haaland and Jack Grealish after our match with Celtic.",
+        "pic7": "https://www.mancity.com/meta/media/voylfvso/recovery-7.jpg",
+        "sub7": "RECOVERY MODE : Jaden Heskey, Wright, O'Reilly, Ndala submerge.",
+        "pic8": "https://www.mancity.com/meta/media/metdk04a/recovery-8.jpg",
+        "sub8": "SPLASH",
+        "pic9": "",
+        "sub9": "",
+        "pic10": "",
+        "sub10": ""
+      }
     },
     {
       "id": 11,
-      "img": "https://www.mancity.com/meta/media/0cgf3nr2/pepnc.jpg?width=229&height=129&mode=crop",
+      "img": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/10228001001/d66d0b04-e1d4-45e7-b6c0-313e7678b863/daa6bc42-c1a3-4b4f-9ad2-a31af0d80e76/810x456/match/image.jpg",
       "title": "Guardiola happy with North Carolina leg of US Tour",
       "subdesc": "INTERVIEWS",
-      "type": "men"
+      "type": "men",
+      "date": "Wed 24 Jul 2024, 02:55",
+      "videoId": "e5pXNCG2L4s",
+      "TitleOne": "Pep Guardiola says he was pleased with his players' effort and performance in the 4-3 loss to Celtic.",
+      "DescOne": "The Blues were up against a side much further along in their pre-season - this was Celtic’s fourth game of the summer.\n\nYet a very young City side more than held their own at the Kenan Memorial Stadium in North Carolina.\n\nAnd the City boss says he has enjoyed the time spent in the east coast state.\n\n“This is the first time in North Carolina since I’m manager,” said Pep.\n\n“It’s been amazing - the hotel took care of us, the distance was short ,so we’re comfortable.\n\n“The training pitch is artificial so we adapted well.\n\n“It was a good test, no injuries so far which are the main things.\n\n“It’s good. I saw many good things, we created a lot of chances.\n\n“We weren’t solid at the back in the transitions but generally it was very good.”\n\nWatch Guardiola‘s post-match press conference by playing the video above...",
+      "TitleTwo": "USA TOUR 2024",
+      "DescTwo": "They were the only City players that didn’t make it into the knockout stage in Germany after a last-minute equaliser in their final match against Italy saw them suffer late heartbreak.\n\nAfter joining 12 months ago, both players made a big impact as we secured a record fourth Premier League title in a row as well as winning the European Super Cup and Club World Cup.\n\nPlaying at left-back, Gvardiol scored five goals in the final weeks of the season as we won our last 10 games to claim the title.",
+      "topics": {
+        "1": "Video",
+        "2": "Men's Team",
+        "3": "Interviews",
+        "4": "Celtic",
+        "5": "USATour2024",
+        "6": "Manchester City"
+      }
     },
     {
       "id": 12,
@@ -152,59 +318,274 @@
     },
     {
       "id": 13,
-      "img": "https://www.mancity.com/meta/media/f0sjzqos/savinho-wide-9.jpg?width=229&height=129&mode=crop",
+      "img": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/10228001001/c63547d5-582b-4f9c-9991-5f422b81e232/20a8999a-8a58-4d56-98de-4e25fa09f0d7/810x456/match/image.jpg",
       "title": "SAVINHO: IN HIS OWN WORDS",
       "subdesc": "INTERVIEWS",
-      "type": "men"
+      "type": "men",
+      "videoId": "nTxi7tCRuus",
+      "date": "Thu 18 Jul 2024, 18:00",
+      "TitleOne": "What’s it like to join Manchester City?",
+      "DescOne": "Well, our new signing Savinho gives an insight into just that via this short but absorbing video feature. \n\nSavinho became our first summer signing today, putting pen to paper on a five-year deal after arriving from sister club, Troyes. \n\nBut what is his background? What have been his highlights in football? What are his ambitions when he puts on the sky blue shirt? \n\nAll is revealed here as we follow the 20-year-old wing wonder all day from his arrival at the CFA as he undergoes his medical, signs his deal, takes part in photographic and media duties and meets-up with fellow Brazilian Ederson and boss Pep Guardiola. \n\nEnjoy the best of Savinho’s first day at City in the video above... \n\n",
+      "TitleTwo": "USA TOUR 2024",
+      "DescTwo": "They were the only City players that didn’t make it into the knockout stage in Germany after a last-minute equaliser in their final match against Italy saw them suffer late heartbreak.\n\nAfter joining 12 months ago, both players made a big impact as we secured a record fourth Premier League title in a row as well as winning the European Super Cup and Club World Cup.\n\nPlaying at left-back, Gvardiol scored five goals in the final weeks of the season as we won our last 10 games to claim the title.",
+      "topics": {
+        "1": "Video",
+        "2": "Men's Team",
+        "3": "Interviews",
+        "4": "Savinho",
+        "5": "New signing",
+        "6": "Manchester City"
+      }
     },
     {
       "id": 14,
-      "img": "https://www.mancity.com/meta/media/ts5p0dhs/oscar-bobb-celtic-lead.jpg?width=229&height=129&mode=crop",
+      "img": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/10228001001/294cc4dc-69e1-452c-ba6d-865ef8a24bf1/c17dc7b7-40d5-4e4c-8a00-510a3a88eb1e/810x456/match/image.jpg",
       "title": "I'M GAINING EXPERIENCE EVERY DAY, SAYS BOBB",
       "subdesc": "INTERVIEWS",
-      "type": "men"
+      "videoId": "6vFNErdvuik",
+      "type": "men",
+      "date": "Wed 24 Jul 2024, 03:30",
+      "TitleOne": "Oscar Bobb says he is learning a lot every day he is part of City's senior squad.",
+      "DescOne": "The talented Norwegian playmaker first made his mark on Pep Guardiola‘s side in last summer’s tour of Asia before having a crucial impact during the 2023/24 season.\n\nNow, the 21-year-old is in the USA and enjoyed an outstanding performance in our tour opener as we were edged out in a 4-3 thriller with Celtic.\n\nBobb scored City’s first of the night in North Carolina before going on to set up Maximo Perrone and Erling Haaland with excellent play on both wings.\n\nSpeaking after the game, Bobb reflected on how his last 12 months have gone: “It’s been great. I’m gaining a lot of experience every day in training and the chances I get I’m very happy for so it’s been great.”\n\nWith the majority of our squad on holiday after summer international tournaments, an inexperienced side took to the field for this fixture.\n\nFacing a Celtic team with most of their key players available and in their fourth friendly of the summer, Bobb knew the challenge we would face.\n\n “First game of the season, it was a bit tough to get used to. It was good to get some minutes and get started. It’s a different environment but it’s great for our conditioning,” he stated\n\n “They’re a very good side. They play some great football and that made it even tougher having to run around chasing.\n\n“I want to play the best I can, not lose the ball as many times as I did today and hopefully score more. My goals and two assists were decent today but overall I was a bit rusty.”",
+      "TitleTwo": "USA TOUR 2024",
+      "DescTwo": "They were the only City players that didn’t make it into the knockout stage in Germany after a last-minute equaliser in their final match against Italy saw them suffer late heartbreak.\n\nAfter joining 12 months ago, both players made a big impact as we secured a record fourth Premier League title in a row as well as winning the European Super Cup and Club World Cup.\n\nPlaying at left-back, Gvardiol scored five goals in the final weeks of the season as we won our last 10 games to claim the title.",
+      "topics": {
+        "1": "Video",
+        "2": "Men's Team",
+        "3": "Interviews",
+        "4": "Celtic",
+        "5": "USATour2024",
+        "6": "Manchester City"
+      }
     },
     {
       "id": 15,
-      "img": "https://www.mancity.com/meta/media/1xenmhvu/leic.jpg?width=229&height=129&mode=crop",
+      "img": "https://www.mancity.com/meta/media/1xenmhvu/leic.jpg?width=810",
       "title": "City in Australia: City v Leicester head to head",
       "subdesc": "WOMEN'S TEAM",
-      "type": "women"
+      "type": "women",
+      "date": "Wed 24 Jul 2024, 03:30",
+      "TitleOne": "We continue our look ahead to the Australian pre-season tour with our head-to-head record against Leicester City…",
+      "DescOne": "Gareth Taylor’s side will meet the Foxes on 28 August at HBF Park in  Perth in the first match of our visit Down Under.\n\nWe’ll be revealing how you can watch that game – which could be the first opportunity to see our summer signings Vivianne Miedema and Risa Shimizu – at a later date.\n\nIn anticipation of the match, here’s our record so far against the Foxes…",
+      "TitleTwo": "CITY 5-0 LEICESTER",
+      "DescTwo": "Conti Cup, September 2019\n\nCity brushed aside the Foxes in the first meeting between the teams.\n\nPlayed at the Academy Stadium, Nick Cushing’s side went ahead through a Caroline Weir goal on 28 minutes.\n\nA Pauline Bremer brace, another for Weir and a Tessa Wullaert goal completed the rout.",
+      "topics": {
+        "1": "News",
+        "2": "Women's Team",
+        "3": "AustraliaTour2024",
+        "4": "Leicester City",
+        "5": "Match",
+        "6": "Manchester City"
+      }
     },
     {
       "id": 16,
-      "img": "https://www.mancity.com/meta/media/zzfk5hji/yui-overlay.jpg?width=229&height=129&mode=crop",
+      "img": "https://www.mancity.com/meta/media/zzfk5hji/yui-overlay.jpg?width=810",
       "title": "OLYMPIC PROFILE: YUI HASEGAWA",
       "subdesc": "WOMEN'S TEAM",
-      "type": "women"
+      "type": "women",
+      "date": "Sat 20 Jul 2024, 15:00",
+      "TitleOne": "One of City’s most important players, Yui Hasegawa, has got a busy summer ahead with Japan competing in another Olympics Games.",
+      "DescOne": "The 27-year-old’s first experience of the prestigious competition came four years ago where they finished eighth.\n\nBut before Hasegawa returns to pre-season training with City, she’s hoping she can add an Olympic medal to her honour list.\n\nOLYMPIC SCHEDULE\n\nJapan have been placed in Group C with Spain, Brazil and Nigeria.\n\nThe times and venues for their games are as follows:\n\nSpain v Japan | 16:00 (UK) | Thursday 25 July | Stade de la Beaujoire, Nantes\n\n Brazil v Japan | 16: 00 (UK) | Sunday 28 July | Parc des Princes, Paris\n\nJapan v Nigeria | 16: 00 (UK) | Stade de la Beaujoire, Nantes",
+      "TitleTwo": "INSTRUMENTAL MIDFIELDER",
+      "DescTwo": "Hasegawa is one of, if not the, most important and technically gifted defensive midfielders in the Barclays Women’s Super League.\n\nSo it may come as surprise to detail that she used to play as more of an attacking midfielder before moving to England.\n\nComposure, stamina, an eye for an attacking pass, and breaking up opposing play, Hasegawa’s list of traits is endless.\n\nThe midfielder played in all but one of City’s 31 games in all competitions throughout the 2023/24 campaign which is a key testament as to how pivotal her role is in Gareth Taylor’s team.\n\nAnd this was emulated in Japan’s previous outing at the 2020 Summer Olympics – which took place in 2021 due to COVID-19.\n\nIn her home country, Hasegawa started in all four of Japan’s games. She assisted two goals in the competition before they were eliminated in the quarter-finals by eventual silver medallists Sweden.  ",
+      "topics": {
+        "1": "News",
+        "2": "Women's Team",
+        "3": "Yui Hasegawa",
+        "4": "Japan Women",
+        "5": "Olympics 2024",
+        "6": "Manchester City"
+      }
     },
     {
       "id": 17,
-      "img": "https://www.mancity.com/meta/media/uoehdepg/laia-aleixandri-arsenal-celebration.jpg?width=229&height=129&mode=crop",
+      "img": "https://www.mancity.com/meta/media/uoehdepg/laia-aleixandri-arsenal-celebration.jpg?width=810",
       "title": "CITY’S OPENING TWO WSL FIXTURES SELECTED FOR TV COVERAGE",
       "subdesc": "WOMEN'S TEAM",
-      "type": "women"
+      "type": "women",
+      "date": "Mon 22 Jul 2024, 14:00",
+      "TitleOne": "Manchester City’s opening two Barclays Women’s Super League fixtures have been selected for live television coverage in the United Kingdom.",
+      "DescOne": "Gareth Taylor’s side have learnt our full league schedule ahead of the 2024/25 campaign and after taking last season’s title race to the final day of the term.\n\nThe Blues start our quest for a second-ever top-flight crown with a trip to Arsenal on Sunday 22 September, with kick-off scheduled for 12:30 (UK).\n\nAnd the meeting in the capital will be shown in Great Britain on Sky Sports.\n\nOur first match at the Joie Stadium takes place seven days later as we welcome Brighton & Hove Albion on Sunday 29 September at 12:30 (UK).\n\nCity’s clash with the Seagulls will be broadcast live in the UK on the BBC.\n\nSBefore the curtain raises on the 2024/25 season, Taylor and his players will embark on a pre-season tour of Australia.\n\n To help aid our quest for major honours next term, we’ll play two games at the Perth International Football Cup this August and September where we’ll first play Leicester on Wednesday 28 August.\n\nTickets are now available on general sale here, while Cityzens can also keep across any updates around our pre-season tour by signing up here.\n\nOur full 2024/25 WSL schedule can be accessed here – stay close to mancity.com and our official app for full ticketing details and future fixture updates.",
+      "TitleTwo": "",
+      "DescTwo": "",
+      "topics": {
+        "1": "News",
+        "2": "Women's Team",
+        "3": "Barclays",
+        "4": "Super League",
+        "5": "Report",
+        "6": "Manchester City"
+      }
     },
     {
       "id": 18,
-      "img": "https://www.mancity.com/meta/media/c3zbweqa/academy-contracts-wide.jpg?width=229&height=129&mode=crop",
+      "img": "https://www.mancity.com/meta/media/c3zbweqa/academy-contracts-wide.jpg?width=810",
       "title": "Academy youngsters sign first professional contracts with City",
       "subdesc": "EDS & ACADEMY",
-      "type": "eds"
+      "type": "eds",
+      "date": "Mon 22 Jul 2024, 14:00",
+      "TitleOne": "Nine Manchester City Academy players have signed their first professional contracts with the Club ahead of the 2024/25 season.",
+      "DescOne": "Rhys Thomas, Kian Noble, Matty Warhurst, Daniel Batty, Jack Wint, Spike Brits, Brooklyn Nfonkeu, Harrison Parker and Luca Fletcher all put pen to paper – signing maiden deals with the Club this summer.  \n\nAll nine of City’s Academy prospects represented the Club at Under-18 level throughout the 2023/24 campaign.  \n\nAnd for Noble, Warhurst, Wint, Brits and Parker, it is a great way to lead into the 2024/25 season with all five making the step up to City’s Elite Development Squad to compete in Premier League 2.  \n\nThomas, Batty, Nfonkeu and Fletcher will be part of the more senior group of players that will continue to develop under the leadership of Oliver Reiss, the new Lead Coach for the Under-18s in their second season developing in the Under-18 Premier League North.  \n\nAnd all will be excited by the challenge of looking to retain the FA Youth Cup after City’s 4-0 triumph over Leeds United at the Etihad Stadium in May, a highlight for all the players in their time in City’s Academy so far.  \n\nTo celebrate the important moment in their journey towards senior football, each player signed their contract with Academy Director Thomas Kruecken at the City Football Academy with their family and friends alongside them to savour the moment. \n\n City are also set to hand first professional deals to Femi Fapetu and Divine Mukasa who will sign their new contracts once they have celebrated their 17th birthdays in the coming months.  \n\nThe takes the Club’s total number of first-year professional contracts to 11 for the upcoming season.  \n\nEveryone at Manchester City send our congratulations to these young players and wish all of them the very best of luck moving forward.  ",
+      "TitleTwo": "",
+      "DescTwo": "",
+      "topics": {
+        "1": "News",
+        "2": "EDS & Academy",
+        "3": "Under-18s",
+        "4": "Squad",
+        "5": "Contract",
+        "6": "2024/25"
+      }
     },
+
     {
       "id": 19,
-      "img": "https://www.mancity.com/meta/media/mw5j3353/scholars-wide.jpg?&width=229&height=129&mode=crop",
-      "title": "12 ACADEMY PLAYERS SIGN SCHOLARSHIPS",
+      "img": "https://www.mancity.com/meta/media/vj4i5xca/portugal-training-4.jpg?width=1280",
+      "title": "Training gallery: City's Academy continues pre-season prep",
       "subdesc": "EDS & ACADEMY",
-      "type": "eds"
+      "type": "eds",
+      "date": "Wed 24 Jul 2024, 15:00",
+      "TitleOne": "View the best images from Portugal as City's Elite Development Squad and Under-18s continue to up the intensity in their pre-season training camp.",
+      "DescOne": "The Academy youngsters are spending the week in some sunshine while they continue to work towards match fitness ahead of the upcoming campaign.  \n\nTuesday was another busy day full of fitness and training out on the pitches at Browns Sport Resort in Vilamoura. \n\nWith the sky clear, blistering heat and good spirits, it was another productive day for Ben Wilkinson, Oliver Reiss and their players..\n\nCourtesy of Club Photographer Isaac Parkin, view the best images from their latest training camp via the gallery below...\n\n",
+      "TitleTwo": "",
+      "DescTwo": "",
+      "topics": {
+        "1": "Video",
+        "2": "Men's Team",
+        "3": "Behind the Scenes",
+        "4": "Open Training",
+        "5": "USATour2024",
+        "6": "Manchester City"
+      },
+      "picture": {
+        "pic1": "https://www.mancity.com/meta/media/wsyl2f1z/portugal-training-7.jpg",
+        "sub1": "SETTING THE SCENE : Portugal looking idyllic during training.",
+        "pic2": "https://www.mancity.com/meta/media/b31f1edz/portugal-training-8.jpg",
+        "sub2": "PEDALLING ALONG : Max Alleyne and Michael Okeke begin training on the bikes.",
+        "pic3": "https://www.mancity.com/meta/media/rjwhlo5t/portugal-training-1.jpg",
+        "sub3": "WORKING HARD : Kaden Braithwaite on the ball in the heat.",
+        "pic4": "https://www.mancity.com/meta/media/njrpulbc/portugal-training-3.jpg",
+        "sub4": "SPRINKLER SURPRISE : Harrison Parker seems un-phased by the appearance of the sprinklers.",
+        "pic5": "https://www.mancity.com/meta/media/ewaibmtx/portugal-training-2.jpg",
+        "sub5": "HEAD TO HEAD : Femi Fapetu is put under pressure by Emilio Lawrence.",
+        "pic6": "https://www.mancity.com/meta/media/ieabwr11/portugal-training-5.jpg",
+        "sub6": "NEW PROFESSION? : Kian Noble tries his hand at photography with the approval of Kaden Braithwaite.",
+        "pic7": "https://www.mancity.com/meta/media/vj4i5xca/portugal-training-4.jpg",
+        "sub7": "WONDER BOY WARHURST : Matty Warhurst looks to get the ball under his spell.",
+        "pic8": "https://www.mancity.com/meta/media/3r1f1hi1/portugal-training-6.jpg",
+        "sub8": "BLUE SKY : Leke Drake enjoying the weather in Portugal",
+        "pic9": "",
+        "sub9": "",
+        "pic10": "",
+        "sub10": ""
+      }
     },
     {
       "id": 20,
-      "img": "https://www.mancity.com/meta/media/vj4i5xca/portugal-training-4.jpg?width=229&height=129&mode=crop",
-      "title": "Training gallery: City's Academy continues pre-season prep",
-      "subdesc": "EDS & ACADEMY",
-      "type": "eds"
+      "img": "https://www.mancity.com/meta/media/hhebltgd/third-kit-foden-1.jpg?width=1280",
+      "title": "GALLERY: OUR 2024/25 PUMA THIRD KIT PRE-MATCH COLLECTION",
+      "subdesc": "CLUB NEWS",
+      "type": "club",
+      "date": "Sat 27 Jul 2024, 17:00",
+      "TitleOne": "Our 2024/25 third kit collection pre-match range allows you to warm up in a cool, calm, and comfortable fashion.",
+      "DescOne": "The collection includes a pre-match jersey, a quarter zip long sleeve top and a walk-out pre-match jacket.\n\nAll styles are available in men’s, women’s and kids’ sizes.\n\nMade with recycled polyester, this collection is designed to help you prepare to be at your best.\n\nWarm up in true Man City style, just as Pep Guardiola and Gareth Taylor‘s squads do.\n\nAvailable from mancity.com/shop, our Etihad Stadium store, Manchester Arndale store and New York City stores.",
+      "TitleTwo": "BUY THE THIRD KIT NOW!",
+      "DescTwo": "",
+      "topics": {
+        "1": "Video",
+        "2": "Men's Team",
+        "3": "Behind the Scenes",
+        "4": "Open Training",
+        "5": "USATour2024",
+        "6": "Manchester City"
+      },
+      "picture": {
+        "pic1": "https://www.mancity.com/meta/media/xpyg2et3/third-kit-alvarez.jpg",
+        "sub1": "",
+        "pic2": "https://www.mancity.com/meta/media/0qwpchnt/third-kit-foden.jpg",
+        "sub2": "",
+        "pic3": "https://www.mancity.com/meta/media/bgbnwfec/third-kit-kovacic.jpg",
+        "sub3": "",
+        "pic4": "https://www.mancity.com/meta/media/krvkf3wy/third-kit-park.jpg",
+        "sub4": "",
+        "pic5": "https://www.mancity.com/meta/media/hhebltgd/third-kit-foden-1.jpg",
+        "sub5": "",
+        "pic6": "https://www.mancity.com/meta/media/ldlpk5mz/third-kit-park-1.jpg",
+        "sub6": "",
+        "pic7": "",
+        "sub7": "",
+        "pic8": "",
+        "sub8": "",
+        "pic9": "",
+        "sub9": "",
+        "pic10": "",
+        "sub10": ""
+      }
+    },
+    {
+      "id": 21,
+      "img": "https://www.mancity.com/meta/media/j3xgeg0c/kit-hold.jpg",
+      "title": "PUMA AND MANCHESTER CITY LAUNCH THE 2024/25 THIRD KIT",
+      "subdesc": "CLUB NEWS",
+      "type": "club",
+      "date": "Fri 26 Jul 2024, 08:00",
+      "TitleOne": "PUMA and Manchester City have today revealed the brand-new Third kit for the 2024/25 season.",
+      "DescOne": "Revealed to fans yesterday in New York City, the classic burgundy kit with metallic gold trims represents constant movement, on and off the pitch, encapsulating the spirit of a Club that’s always evolving and pushing forward.\n\nCity’s journey is one of perpetual motion, and the new 24/25 Third kit pays homage to this dynamic legacy.\n\nThe ship from the Manchester City crest, a symbol of the Club’s rich history, is transformed into an all-over tonal graphic representing the past, present, and future of a Club that’s never not moving.\n\nNuria Tarre, Chief Marketing and Fan Experience Officer at City Football Group, said: “We’re delighted to reveal the 24/25 Third Kit with our partner PUMA today.\n\n",
+      "TitleTwo": "BUY THE THIRD KIT NOW!",
+      "DescTwo": "Nuria Tarre, Chief Marketing and Fan Experience Officer at City Football Group, said: “We’re delighted to reveal the 24/25 Third Kit with our partner PUMA today.\n\n“Being able to also exclusively launch the kit in New York City, with our ‘Block Party’ activation, alongside our manager, Pep Guardiola and players is hugely exciting for the Club and part of our ongoing strategy to provide authentic City experiences to our global fanbase.\n\n“We work closely with PUMA to design kits that take inspiration from our fans and history, integrating key elements of our brand in a modern and elegant way. We hope fans enjoy the release today.” \n\nThe new Third kit was launched during Manchester City men’s first team pre-season tour of the USA at an exciting ‘Block Party’ event on 49th Street and 5th Avenue in New York City.\n\nIn collaboration with PUMA, both Clubs will host a joint community football session at Sofive Meadowlands as part of a ‘City and Milan for Change’ initiative.",
+      "topics": {
+        "1": "Video",
+        "2": "Men's Team",
+        "3": "Behind the Scenes",
+        "4": "Open Training",
+        "5": "USATour2024",
+        "6": "Manchester City"
+      },
+      "picture": {
+        "pic1": "https://www.mancity.com/meta/media/zexm4ibk/24aw_pr_ts_football_man-city_third_matchwear_kv_16x9_1920x1080px.jpg?rmode=max",
+        "sub1": "",
+        "pic2": "https://www.mancity.com/meta/media/zn5aiif2/24aw_pr_ts_football_man-city_third_matchwear_doku_0061_16x9_1920x1080px.jpg?rmode=max",
+        "sub2": "",
+        "pic3": "https://www.mancity.com/meta/media/j0elgrue/24aw_pr_ts_football_man-city_third_matchwear_ederson_0083_16x9_1920x1080px.jpg?rmode=max",
+        "sub3": "",
+        "pic4": "https://www.mancity.com/meta/media/3aqcfoyg/24aw_pr_ts_football_man-city_third_matchwear_kovacic_0052_16x9_1920x1080px.jpg?rmode=max",
+        "sub4": "",
+        "pic5": "https://cf-images.eu-west-1.prod.boltdns.net/v1/static/10228001001/38d26f26-d79c-48b3-b896-b7683497c2fd/0230b87c-11bd-483b-8ad5-02a5b071ea78/810x456/match/image.jpg",
+        "sub5": "",
+        "pic6": "https://www.mancity.com/meta/media/05bhcbwr/24aw_pr_ts_football_man-city_third_matchwear_bobb_0148_16x9_1920x1080px.jpg?rmode=max",
+        "sub6": "",
+        "pic7": "",
+        "sub7": "",
+        "pic8": "",
+        "sub8": "",
+        "pic9": "",
+        "sub9": "",
+        "pic10": "",
+        "sub10": ""
+      }
+    },
+    {
+      "id": 22,
+      "img": "https://www.mancity.com/meta/media/wngk3gxg/betway-partnership-launch_1920x1080-1.jpg?width=810",
+      "title": "MANCHESTER CITY ANNOUNCE PARTNERSHIP WITH SUPER GROUP-OWNED BETWAY",
+      "subdesc": "CLUB NEWS ",
+      "type": "club",
+      "date": "Fri 26 Jul 2024, 12:00",
+      "TitleOne": "Manchester City has today announced a new multi-year partnership with leading global online betting and gaming brand, Betway.",
+      "DescOne": "As part of the Club’s pre-season tour of the United States, and to mark this significant deal, leading figures from Manchester City and Super Group were on-site for the iconic New York Stock Exchange bell-ringing ceremony. \n\n Ferran Soriano, CEO of City Football Group, along with Neal Menashe, Super Group CEO, rang The Opening Bell at 9:30 (EDT) to signal the opening of the days’ trading on Friday 26 July. \n\nThe agreement will see Betway become the Club’s Official Global Betting Partner from the start of the 2024/25 season, as Manchester City joins the brand’s extensive sports sponsorship portfolio which includes teams from across the Premier League, La Liga, NBA and more. \n\nOn the occasion, Soriano said: “We are pleased to announce Betway as our Official Global Betting Partner today. \n\n“As a globally recognised brand, Betway has a strong pedigree and history of working with high-profile brands within the sports space and we’re excited to work together throughout the partnership.”\n\n Menashe commented: “We are absolutely delighted to become Manchester City’s Official Global Betting Partner. ",
+      "DescTwo": "“This agreement cements our place in the top tier of Premier League partners, ensuring that out Betway brand reaches fans in all corners of the globe.” \n\nThroughout the duration of the partnership, Manchester City and Betway will collaborate on a number of activations and exclusive content opportunities, in addition to the brand featuring across digital and in-stadia assets.",
+      "Imgtwo": "https://www.mancity.com/meta/media/3spfkzzo/8a2a9878-enhanced-nr.jpg",
+      "TitleThree": "",
+      "DescThree": "Manchester City and Betway will also work together to provide all players, coaches, management and staff with in-depth, industry-leading training on all relevant codes of conduct relating to betting integrity and responsible gambling.\n\nThis is in addition to the work Manchester City already does to support players and staff in this area. ",
+      "topics": {
+        "1": "News",
+        "2": "Club News",
+        "3": "Partnership",
+        "4": "Betway",
+        "5": "Ferran Soriano",
+        "6": "New York"
+      }
     }
   ]
 }
