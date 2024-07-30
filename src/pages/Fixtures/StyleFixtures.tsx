@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Opacity } from "../MainHome/StyleMainHome";
 type Props = {
   isClick?: boolean;
 };
@@ -91,13 +92,16 @@ export const FixtureInner = styled.div`
   }
   @media ${({ theme }) => theme.mediaSize.xs} {
     height: fit-content;
-    /* padding-bottom: 150px; */
   }
 `;
 export const InfoSection = styled.div`
   width: 1024px;
   padding: 0 18px;
   padding-top: 48px;
+  opacity: 0;
+  animation-delay: 0.1s;
+  animation: ${Opacity} 1.5s ease-in-out;
+  animation-fill-mode: forwards;
 `;
 export const FixtureTabTitle = styled.div`
   margin-bottom: -24px;
@@ -106,6 +110,7 @@ export const FixtureTabTitle = styled.div`
 `;
 export const FixtureTabContent = styled.div`
   width: 100%;
+  padding-bottom: 24px;
 `;
 export const FixtureTabContentTop = styled.div`
   border-bottom: 1px solid ${({ theme }) => theme.colors.info_BG};
@@ -118,35 +123,50 @@ export const DateInfo = styled.div`
   color: ${({ theme }) => theme.colors.middle_Skyblue};
 `;
 export const FixtureTabContentBottom = styled.div`
-  padding: 24px 0px;
-  border: 1px solid #f00;
+  padding: 30px 0px;
+  border-bottom: 1px solid ${({ theme }) => theme.colors.info_BG};
   display: flex;
   justify-content: space-between;
   align-items: center;
 `;
+export const FixtureTabContentBottomInfoLogo = styled.span<Logo>`
+  background: url(${({ logo }) => logo});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48px;
+  height: 48px;
+`;
 export const FixtureTabContentBottomInfoText = styled.div`
   color: ${({ theme }) => theme.colors.TitleColor};
   display: flex;
-  gap: 6px;
+  gap: 8px;
   align-items: center;
-  span {
-    background: url("https://www.mancity.com/meta/media/re5mofgu/microsoftteams-image-43.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 48px;
-    height: 48px;
+  position: relative;
+  .result {
+    position: absolute;
+    right: -24px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    background: ${({ theme }) => theme.colors.medium_blue};
+    color: white;
   }
+  width: 190px;
   div {
     display: flex;
     flex-direction: column;
 
     div {
       font-weight: 700;
-      font-size: ${({ theme }) => theme.fontSize.p17};
+      font-size: ${({ theme }) => theme.fontSize.p15};
     }
     p {
-      font-size: ${({ theme }) => theme.fontSize.p14};
+      font-size: ${({ theme }) => theme.fontSize.p13};
       letter-spacing: -1px;
       font-weight: 500;
       color: ${({ theme }) => theme.colors.sub_text};
@@ -156,21 +176,48 @@ export const FixtureTabContentBottomInfoText = styled.div`
 export const FixtureTabContentBottomMain = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 12px;
 `;
 export const FixtureTabContentBottomMainInner = styled.div<Logo>`
   display: flex;
   justify-content: center;
+  gap: 24px;
   align-items: center;
-  gap: 12px;
+  width: 600px;
+
+  :nth-child(1) {
+    justify-content: end;
+  }
   div {
     font-weight: 700;
     color: ${({ theme }) => theme.colors.TitleColor};
     font-size: ${({ theme }) => theme.fontSize.p19};
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    gap: 6px;
+    gap: 12px;
+    letter-spacing: -1.2px;
+    white-space: nowrap;
+    width: 250px;
+  }
+  .score {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0;
+    font-size: ${({ theme }) => theme.fontSize.p30};
+    color: ${({ theme }) => theme.colors.White};
+    width: fit-content;
+
+    span {
+      background: ${({ theme }) => theme.colors.medium_blue};
+      padding: 3px 12px;
+      border-radius: 6px;
+    }
   }
   .middle {
     background: ${({ theme }) => theme.colors.info_BG};
@@ -179,14 +226,20 @@ export const FixtureTabContentBottomMainInner = styled.div<Logo>`
     justify-content: center;
     align-items: center;
     font-weight: 500;
-    padding: 3px 8px;
+    padding: 10px 8px;
+    width: 50px;
+
     p {
       font-size: ${({ theme }) => theme.fontSize.p17};
+
+      line-height: 0.5;
     }
     i {
       font-size: ${({ theme }) => theme.fontSize.p12};
       text-decoration: none;
       font-style: normal;
+
+      line-height: 0.5;
     }
   }
 `;
@@ -198,19 +251,75 @@ export const TabLogo = styled.span<Logo>`
   background: url(${({ logo }) => logo});
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 48px;
   height: 48px;
 `;
 export const TicketSection = styled.div`
-  border: 1px solid #f00;
   padding: 0px 12px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  cursor: pointer;
+  gap: 6px;
+  transition: all 0.3s;
+  &:hover {
+    .btn {
+      background: ${({ theme }) => theme.colors.Hover_Yell};
+    }
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-weight: 700;
+    letter-spacing: -1px;
+
+    width: 138px;
+    font-size: ${({ theme }) => theme.fontSize.p14};
+  }
   .btn {
-    background: #000;
-    width: 150px;
+    background: ${({ theme }) => theme.colors.Yell_Btn};
+    width: 138px;
+    padding: 12px 0px;
+    font-size: ${({ theme }) => theme.fontSize.p17};
+  }
+`;
+export const AddContainer = styled.div<Logo>`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: ${({ theme }) => theme.fontSize.p11};
+  color: ${({ theme }) => theme.colors.sub_text};
+  padding-bottom: 48px;
+  div {
+    background: url(${({ logo }) => logo});
+    width: 728px;
+    height: 90px;
+  }
+`;
+export const LinkSection = styled.div`
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    gap: 6px;
+    color: ${({ theme }) => theme.colors.TitleColor};
+    transition: all 0.3s;
+    font-size: ${({ theme }) => theme.fontSize.p20};
+    svg {
+      transition: all 0.3s;
+      fill: ${({ theme }) => theme.colors.TitleColor};
+    }
+    &:hover {
+      color: ${({ theme }) => theme.colors.point_Skyblue};
+      svg {
+        fill: ${({ theme }) => theme.colors.point_Skyblue};
+      }
+    }
   }
 `;

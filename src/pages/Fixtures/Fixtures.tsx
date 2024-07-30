@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {
+  AddContainer,
   FixtureInfoSection,
   FixtureInfoTabs,
   FixtureInner,
@@ -28,6 +29,8 @@ import MenTables from "../../Component/fixtures/tables/MenTables";
 import WomenTables from "../../Component/fixtures/tables/WomenTables";
 import EDSTables from "../../Component/fixtures/tables/EDSTables";
 import AcademyTables from "../../Component/fixtures/tables/AcademyTables";
+import { NewsContainer } from "../../Component/news/tabs/all/StyleTabsAll";
+import Footer from "../../Component/common/footer/Footer";
 
 const Fixtures = () => {
   const initialFixtureTabsState = () => {
@@ -158,6 +161,11 @@ const Fixtures = () => {
         {Fixturetabs.tables && tabs.eds && <EDSTables />}
         {Fixturetabs.tables && tabs.academy && <AcademyTables />}
       </InfoSection>
+      <AddContainer logo="https://tpc.googlesyndication.com/simgad/15422444033030513763">
+        Advertisement
+        <div></div>
+      </AddContainer>
+      <Footer />
     </FixturesContainer>
   );
 };

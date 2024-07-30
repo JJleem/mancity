@@ -1,0 +1,36 @@
+{
+  "AUGUST 2024": [
+    {
+      "id": 1,
+      "Title": "JULY 2024",
+      "typelogo": "https://www.mancity.com/meta/media/rdoliche/eds-leasing-small.png",
+      "date": "Wed 28 Aug",
+      "typetext": "EFL Trophy",
+      "HomeName": "Grimsby Town",
+      "Homelogo": "https://www.mancity.com/meta/media/zlrfi4n0/grimb_badge.png",
+      "AwayName": "Manchester City",
+      "Awaylogo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png",
+      "Time": "03:30",
+      "Sub": "",
+      "Ticket": "No tickets available",
+      "TicketBtn": ""
+    }
+  ],
+  "NOVEMBER 2024": [
+    {
+      "id": 2,
+      "Title": "JULY 2024",
+      "typelogo": "https://www.mancity.com/meta/media/rdoliche/eds-leasing-small.png",
+      "date": "Wed 13 Nov",
+      "typetext": "EFL Trophy",
+      "HomeName": "Lincoln City",
+      "Homelogo": "https://www.mancity.com/meta/media/vtyok354/lincoln_city_2014.png",
+      "AwayName": "Manchester City",
+      "Awaylogo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png",
+      "Time": "04:45",
+      "Sub": "",
+      "Ticket": "No tickets available",
+      "TicketBtn": ""
+    }
+  ]
+}

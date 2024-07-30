@@ -25,7 +25,7 @@ const MainHome = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  console.log(scrollY);
+
   return (
     <MainHomeContainer>
       <MainHomeInner>

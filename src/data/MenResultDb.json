@@ -1,0 +1,41 @@
+{
+  "JULY 2024": [
+    {
+      "id": 1,
+      "Title": "JULY 2024",
+      "typelogo": "https://www.mancity.com/meta/media/re5mofgu/microsoftteams-image-43.png",
+      "date": "Sat 27 Jul",
+      "typetext": "USA Tour 2024",
+      "HomeName": "Manchester City",
+      "Homelogo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png",
+      "AwayName": "AC   Milan",
+      "Awaylogo": "https://www.mancity.com/meta/media/pmvldocg/acmilan.png",
+      "Time": "03:30",
+      "Sub": "",
+      "Ticket": "No tickets available",
+      "TicketBtn": "",
+      "homeScore": "2",
+      "awayScore": "3",
+      "result": "L"
+    },
+    {
+      "id": 2,
+      "Title": "JULY 2024",
+      "typelogo": "https://www.mancity.com/meta/media/re5mofgu/microsoftteams-image-43.png",
+      "date": "Wed 24 Jul",
+      "typetext": "USA Tour 2024",
+      "HomeName": "Manchester City",
+      "Homelogo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png",
+      "AwayName": "Celtic",
+      "Awaylogo": "https://www.mancity.com/meta/media/4njkpt4h/celtic-full.png",
+      "Time": "03:30",
+      "Sub": "",
+      "Ticket": "No tickets available",
+      "TicketBtn": "",
+      "homeScore": "3",
+      "awayScore": "4",
+      "result": "L",
+      "link": "/news/5"
+    }
+  ]
+}
