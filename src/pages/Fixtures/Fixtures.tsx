@@ -34,9 +34,9 @@ import Footer from "../../Component/common/footer/Footer";
 
 const Fixtures = () => {
   const initialFixtureTabsState = () => {
-    const storedTabs = localStorage.getItem("Fixturetabs");
-    return storedTabs
-      ? JSON.parse(storedTabs)
+    const storedFixtureTabs = localStorage.getItem("Fixturetabs");
+    return storedFixtureTabs
+      ? JSON.parse(storedFixtureTabs)
       : {
           fixtures: true,
           results: false,
