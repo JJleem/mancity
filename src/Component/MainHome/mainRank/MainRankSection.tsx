@@ -34,7 +34,7 @@ const MainRankSection = () => {
     navigate("/");
   };
   const handleHighlights = () => {
-    navigate("/");
+    navigate("/news/5");
   };
   const [scrollY, setScrollY] = useState(0);
   useEffect(() => {

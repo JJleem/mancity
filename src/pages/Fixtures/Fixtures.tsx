@@ -31,22 +31,12 @@ import EDSTables from "../../Component/fixtures/tables/EDSTables";
 import AcademyTables from "../../Component/fixtures/tables/AcademyTables";
 import { NewsContainer } from "../../Component/news/tabs/all/StyleTabsAll";
 import Footer from "../../Component/common/footer/Footer";
-
+import { useRecoilState } from "recoil";
+import { fixtureTabsState } from "../../atom/atom";
+import { fixtureTeamState } from "../../atom/atom";
 const Fixtures = () => {
-  const initialFixtureTabsState = () => {
-    const storedFixtureTabs = localStorage.getItem("Fixturetabs");
-    return storedFixtureTabs
-      ? JSON.parse(storedFixtureTabs)
-      : {
-          fixtures: true,
-          results: false,
-          tables: false,
-        };
-  };
-  const [Fixturetabs, setFixturetabs] = useState(initialFixtureTabsState);
-  useEffect(() => {
-    localStorage.setItem("Fixturetabs", JSON.stringify(Fixturetabs));
-  }, [Fixturetabs]);
+  const [Fixturetabs, setFixturetabs] = useRecoilState(fixtureTabsState);
+
   const [title, setTitle] = useState("FIXTURES");
   const handleFixtureTabClick = (tab: string) => {
     setFixturetabs((prevTabs: any) => ({
@@ -56,6 +46,7 @@ const Fixtures = () => {
       results: tab === "results",
       tables: tab === "tables",
     }));
+
     switch (tab) {
       case "fixtures":
         setTitle("FIXTURES");
@@ -72,24 +63,11 @@ const Fixtures = () => {
     }
   };
 
-  const initialTabsState = () => {
-    const storedTabs = localStorage.getItem("tabs");
-    return storedTabs
-      ? JSON.parse(storedTabs)
-      : {
-          men: true,
-          women: false,
-          academy: false,
-          eds: false,
-        };
-  };
-  const [tabs, setTabs] = useState(initialTabsState);
-  useEffect(() => {
-    localStorage.setItem("tabs", JSON.stringify(tabs));
-  }, [tabs]);
+  const [FixtureTeamtabs, setFixtureTeamtabs] =
+    useRecoilState(fixtureTeamState);
 
   const handleTabClick = (tab: string) => {
-    setTabs((prevTabs: any) => ({
+    setFixtureTeamtabs((prevTabs: any) => ({
       ...prevTabs,
       [tab]: true,
       men: tab === "men",
@@ -129,18 +107,27 @@ const Fixtures = () => {
         <NewsInfoSection>
           <FixtureTabTitle>{title}</FixtureTabTitle>
           <NewsInfoTabs>
-            <Tabs onClick={() => handleTabClick("men")} isClick={tabs.men}>
+            <Tabs
+              onClick={() => handleTabClick("men")}
+              isClick={FixtureTeamtabs.men}
+            >
               Men's Team
             </Tabs>
-            <Tabs onClick={() => handleTabClick("women")} isClick={tabs.women}>
+            <Tabs
+              onClick={() => handleTabClick("women")}
+              isClick={FixtureTeamtabs.women}
+            >
               Women's Team
             </Tabs>
-            <Tabs onClick={() => handleTabClick("eds")} isClick={tabs.eds}>
+            <Tabs
+              onClick={() => handleTabClick("eds")}
+              isClick={FixtureTeamtabs.eds}
+            >
               EDS
             </Tabs>
             <Tabs
               onClick={() => handleTabClick("academy")}
-              isClick={tabs.academy}
+              isClick={FixtureTeamtabs.academy}
             >
               Academy
             </Tabs>
@@ -148,18 +135,18 @@ const Fixtures = () => {
         </NewsInfoSection>
       </NewsInner>
       <InfoSection>
-        {Fixturetabs.fixtures && tabs.men && <MenFixtures />}
-        {Fixturetabs.fixtures && tabs.women && <WomenFixtures />}
-        {Fixturetabs.fixtures && tabs.eds && <EDSFixtures />}
-        {Fixturetabs.fixtures && tabs.academy && <AcademyFixtures />}
-        {Fixturetabs.results && tabs.men && <MenResults />}
-        {Fixturetabs.results && tabs.women && <WomenResult />}
-        {Fixturetabs.results && tabs.eds && <EDSResult />}
-        {Fixturetabs.results && tabs.academy && <AcademyResult />}
-        {Fixturetabs.tables && tabs.men && <MenTables />}
-        {Fixturetabs.tables && tabs.women && <WomenTables />}
-        {Fixturetabs.tables && tabs.eds && <EDSTables />}
-        {Fixturetabs.tables && tabs.academy && <AcademyTables />}
+        {Fixturetabs.fixtures && FixtureTeamtabs.men && <MenFixtures />}
+        {Fixturetabs.fixtures && FixtureTeamtabs.women && <WomenFixtures />}
+        {Fixturetabs.fixtures && FixtureTeamtabs.eds && <EDSFixtures />}
+        {Fixturetabs.fixtures && FixtureTeamtabs.academy && <AcademyFixtures />}
+        {Fixturetabs.results && FixtureTeamtabs.men && <MenResults />}
+        {Fixturetabs.results && FixtureTeamtabs.women && <WomenResult />}
+        {Fixturetabs.results && FixtureTeamtabs.eds && <EDSResult />}
+        {Fixturetabs.results && FixtureTeamtabs.academy && <AcademyResult />}
+        {Fixturetabs.tables && FixtureTeamtabs.men && <MenTables />}
+        {Fixturetabs.tables && FixtureTeamtabs.women && <WomenTables />}
+        {Fixturetabs.tables && FixtureTeamtabs.eds && <EDSTables />}
+        {Fixturetabs.tables && FixtureTeamtabs.academy && <AcademyTables />}
       </InfoSection>
       <AddContainer logo="https://tpc.googlesyndication.com/simgad/15422444033030513763">
         Advertisement

@@ -32,7 +32,7 @@ export const NewsInner = styled.div`
   }
   @media ${({ theme }) => theme.mediaSize.xs} {
     height: fit-content;
-    padding-bottom: 150px;
+    padding-bottom: 0px;
   }
 `;
 export const NewsInfoSection = styled.div`
@@ -46,10 +46,18 @@ export const NewsInfoSection = styled.div`
   padding: 48px 18px;
   gap: 48px;
   padding-bottom: 0;
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    width: 100%;
+  }
 `;
 export const NewsInfoTabs = styled.div`
   display: flex;
   gap: 24px;
+
+  width: 100%;
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    gap: 12px;
+  }
 `;
 export const Tabs = styled.div<isClick>`
   border-right: 1px solid ${({ theme }) => theme.colors.medium_blue};
@@ -61,6 +69,9 @@ export const Tabs = styled.div<isClick>`
   position: relative;
   overflow: hidden;
   transition: opacity 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &::before {
     content: "";
     position: absolute;
@@ -80,6 +91,16 @@ export const Tabs = styled.div<isClick>`
   }
   @media ${({ theme }) => theme.mediaSize.sm} {
     font-size: ${({ theme }) => theme.fontSize.p12};
+    padding-right: 12px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: calc(100% - 12px);
+      bottom: ${({ isClick }) => (isClick ? "0px" : "-4px")};
+      border: 2px solid ${({ theme }) => theme.colors.Header_BG};
+      transition: all 0.2s;
+    }
   }
 `;
 export const TabsSection = styled.div`

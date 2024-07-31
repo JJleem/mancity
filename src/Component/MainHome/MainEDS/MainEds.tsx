@@ -27,6 +27,8 @@ import {
 import city from "../../../assets/img/logo/mainlogo.png";
 import grimsby from "../../../assets/img/logo/grimsby.png";
 import { EdsSection } from "./StyleMainEds";
+import { useRecoilState } from "recoil";
+import { NewsTabsState } from "../../../atom/atom";
 
 const MainEds = () => {
   const navigate = useNavigate();
@@ -45,7 +47,19 @@ const MainEds = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  const edsNewsImg = db.edsNews.map((newsItems) => newsItems.img);
+  const [tabs, setTabs] = useRecoilState(NewsTabsState);
+  const handleTabClick = (tab: string) => {
+    setTabs((prevTabs: any) => ({
+      ...prevTabs,
+      [tab]: true,
+      all: tab === "all",
+      men: tab === "men",
+      women: tab === "women",
+      academy: tab === "academy",
+      club: tab === "club",
+    }));
+    navigate("/news");
+  };
   return (
     <EdsSection scroll={scrollY}>
       <NewsSectionInner>
@@ -107,7 +121,9 @@ const MainEds = () => {
         </WomenWrapper>
       </NewsSectionInner>
       <MoreNews>
-        <MoreNewsBtn>More News</MoreNewsBtn>
+        <MoreNewsBtn onClick={() => handleTabClick("academy")}>
+          More News
+        </MoreNewsBtn>
       </MoreNews>
     </EdsSection>
   );

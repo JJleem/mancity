@@ -293,10 +293,7 @@ const WomenFixtures = () => {
           </FixtureTabContentBottom>
         ))}
       </FixtureTabContent>
-      <AddContainer logo="https://tpc.googlesyndication.com/simgad/17564424432651183396">
-        Advertisement
-        <div></div>
-      </AddContainer>
+
       <FixtureTabContent>
         <FixtureTabContentTop>
           <DateInfo>JANUARY 2025</DateInfo>

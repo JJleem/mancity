@@ -57,6 +57,7 @@ export const FixureTabs = styled.div<Props>`
   position: relative;
   overflow: hidden;
   transition: opacity 0.2s;
+
   &::before {
     content: "";
     position: absolute;
@@ -88,6 +89,7 @@ export const FixtureInner = styled.div`
 
   background: ${({ theme }) => theme.colors.medium_blue};
   margin-bottom: -24px;
+
   @media ${({ theme }) => theme.mediaSize.sm} {
   }
   @media ${({ theme }) => theme.mediaSize.xs} {
@@ -102,6 +104,22 @@ export const InfoSection = styled.div`
   animation-delay: 0.1s;
   animation: ${Opacity} 1.5s ease-in-out;
   animation-fill-mode: forwards;
+  @media ${({ theme }) => theme.mediaSize.lg} {
+    padding: 0px 24px;
+    padding-top: 48px;
+  }
+  @media ${({ theme }) => theme.mediaSize.md} {
+    padding: 0px 146px;
+    padding-top: 48px;
+  }
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    padding: 0px 290px;
+    padding-top: 48px;
+  }
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    padding: 0px 338px;
+    padding-top: 48px;
+  }
 `;
 export const FixtureTabTitle = styled.div`
   margin-bottom: -24px;
@@ -111,6 +129,9 @@ export const FixtureTabTitle = styled.div`
 export const FixtureTabContent = styled.div`
   width: 100%;
   padding-bottom: 24px;
+
+  @media ${({ theme }) => theme.mediaSize.md} {
+  }
 `;
 export const FixtureTabContentTop = styled.div`
   border-bottom: 1px solid ${({ theme }) => theme.colors.info_BG};
@@ -128,6 +149,13 @@ export const FixtureTabContentBottom = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media ${({ theme }) => theme.mediaSize.md} {
+    flex-direction: column;
+    padding-top: 24px;
+    pading-bottom: 24px;
+
+    gap: 24px;
+  }
 `;
 export const FixtureTabContentBottomInfoLogo = styled.span<Logo>`
   background: url(${({ logo }) => logo});
@@ -136,6 +164,11 @@ export const FixtureTabContentBottomInfoLogo = styled.span<Logo>`
   background-size: cover;
   width: 48px;
   height: 48px;
+
+  @media ${({ theme }) => theme.mediaSize.md} {
+    position: absolute;
+    left: 18px;
+  }
 `;
 export const FixtureTabContentBottomInfoText = styled.div`
   color: ${({ theme }) => theme.colors.TitleColor};
@@ -170,6 +203,16 @@ export const FixtureTabContentBottomInfoText = styled.div`
       letter-spacing: -1px;
       font-weight: 500;
       color: ${({ theme }) => theme.colors.sub_text};
+    }
+  }
+  @media ${({ theme }) => theme.mediaSize.md} {
+    background: ${({ theme }) => theme.colors.info_BG};
+    width: 100%;
+    padding: 12px 18px;
+    justify-content: center;
+    position: relative;
+    .result {
+      display: none;
     }
   }
 `;
@@ -242,10 +285,49 @@ export const FixtureTabContentBottomMainInner = styled.div<Logo>`
       line-height: 0.5;
     }
   }
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    div {
+      font-size: ${({ theme }) => theme.fontSize.p15};
+    }
+  }
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    .score {
+      display: flex;
+      flex-direction: row;
+      span {
+        padding: 1px 10px;
+      }
+    }
+    gap: 12px;
+    div {
+      font-size: ${({ theme }) => theme.fontSize.p14};
+
+      gap: 5px;
+
+      width: 140px;
+      flex-direction: column-reverse;
+    }
+    :nth-child(3) {
+      flex-direction: column;
+    }
+    .middle {
+      width: 40px;
+      gap: 8px;
+      p {
+        font-size: ${({ theme }) => theme.fontSize.p14};
+      }
+      i {
+        font-size: ${({ theme }) => theme.fontSize.p9};
+      }
+    }
+  }
 `;
 export const FixtureTabContentBottomSub = styled.div`
   color: ${({ theme }) => theme.colors.sub_text};
   font-size: ${({ theme }) => theme.fontSize.p14};
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    font-size: ${({ theme }) => theme.fontSize.p10};
+  }
 `;
 export const TabLogo = styled.span<Logo>`
   background: url(${({ logo }) => logo});
@@ -254,6 +336,14 @@ export const TabLogo = styled.span<Logo>`
   background-size: contain;
   width: 48px;
   height: 48px;
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    width: 36px;
+    height: 36px;
+  }
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    width: 30px;
+    height: 30px;
+  }
 `;
 export const TicketSection = styled.div`
   padding: 0px 12px;
@@ -264,6 +354,7 @@ export const TicketSection = styled.div`
   cursor: pointer;
   gap: 6px;
   transition: all 0.3s;
+
   &:hover {
     .btn {
       background: ${({ theme }) => theme.colors.Hover_Yell};
@@ -286,6 +377,11 @@ export const TicketSection = styled.div`
     padding: 12px 0px;
     font-size: ${({ theme }) => theme.fontSize.p17};
   }
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    div {
+      width: 100%;
+    }
+  }
 `;
 export const AddContainer = styled.div<Logo>`
   display: flex;
@@ -295,10 +391,31 @@ export const AddContainer = styled.div<Logo>`
   font-size: ${({ theme }) => theme.fontSize.p11};
   color: ${({ theme }) => theme.colors.sub_text};
   padding-bottom: 48px;
+  width: 1024px;
+
   div {
     background: url(${({ logo }) => logo});
     width: 728px;
     height: 90px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  @media ${({ theme }) => theme.mediaSize.lg} {
+    padding: 48px 24px;
+  }
+  @media ${({ theme }) => theme.mediaSize.md} {
+    padding: 48px 146px;
+  }
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    padding: 48px 290px;
+
+    div {
+      width: 100%;
+    }
+  }
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    padding: 48px 338px;
   }
 `;
 export const LinkSection = styled.div`

@@ -12,7 +12,7 @@ import tableDb from "../../../data/MenTableDb.json";
 const MenTables = () => {
   return (
     <MenTablesContainer>
-      <MenTablesLogo />
+      <MenTablesLogo logo="https://www.mancity.com/meta/media/nt4fvtjt/mens-premier-league-purple-wide-3x.png?width=213" />
       <MenTablesSection>
         <MenTablesRank className="header">
           <li></li>

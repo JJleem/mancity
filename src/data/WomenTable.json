@@ -10,96 +10,58 @@
       "team": "Aston Villa",
       "logo": "https://www.mancity.com/meta/media/klbh3x01/a-villa-new-full.png?height=48"
     },
+
     {
       "id": 3,
-      "team": "Bournemouth",
-      "logo": "https://www.mancity.com/meta/media/rain5fkc/bournemouth.png?height=48"
-    },
-    {
-      "id": 4,
-      "team": "Brentford",
-      "logo": "https://www.mancity.com/meta/media/rqzhkwz1/1920px-brentford_fc_crest-svg.png?height=48"
-    },
-    {
-      "id": 5,
       "team": "Brighton",
       "logo": "https://www.mancity.com/meta/media/pwinp3vk/brighton.png?height=48"
     },
     {
-      "id": 6,
+      "id": 4,
       "team": "Chelsea",
       "logo": "https://www.mancity.com/meta/media/bbbbljr5/chelsea.png?height=48"
     },
     {
-      "id": 7,
+      "id": 5,
       "team": "Crystal Palace",
       "logo": "https://www.mancity.com/meta/media/ttda4o0h/cpalace.png?height=48"
     },
     {
-      "id": 8,
+      "id": 6,
       "team": "Everton",
       "logo": "https://www.mancity.com/meta/media/2vujb1uo/everton.png?height=48"
     },
     {
-      "id": 9,
-      "team": "Fulham",
-      "logo": "https://www.mancity.com/meta/media/1g5hz52o/fulham.png?height=48"
-    },
-    {
-      "id": 10,
-      "team": "Ipswich Town",
-      "logo": "https://www.mancity.com/meta/media/2typ1tb3/283px-ipswich_town-fw.png?height=48"
-    },
-    {
-      "id": 11,
+      "id": 7,
       "team": "Leicester City",
       "logo": "https://www.mancity.com/meta/media/tualebgx/leicester.png?height=48"
     },
     {
-      "id": 12,
+      "id": 8,
       "team": "Liverpool",
       "logo": "https://www.mancity.com/meta/media/5e0pzxke/liverpool.png?height=48"
     },
     {
-      "id": 13,
+      "id": 9,
       "team": "Manchester City",
       "logo": "https://www.mancity.com/meta/media/yzscd2rf/manchester_city_fc_badge.png?height=48"
     },
     {
-      "id": 14,
+      "id": 10,
       "team": "Manchester United",
       "logo": "https://www.mancity.com/meta/media/d1zedbrg/manunited.png?height=48"
     },
+
     {
-      "id": 15,
-      "team": "Newcastle United",
-      "logo": "https://www.mancity.com/meta/media/rp4pwzgv/newcastle.png?height=48"
-    },
-    {
-      "id": 16,
-      "team": "Nottingham Forest",
-      "logo": "https://www.mancity.com/meta/media/1xjhro13/imager20190425t1213184271png.png?height=48"
-    },
-    {
-      "id": 17,
-      "team": "Southampton",
-      "logo": "https://www.mancity.com/meta/media/x1gl4nzn/southampton.png?height=48"
-    },
-    {
-      "id": 18,
+      "id": 11,
       "team": "Tottenham Hotspur",
       "logo": "https://www.mancity.com/meta/media/t02jppxo/spurs-logo-with-outline.png?height=48"
     },
 
     {
-      "id": 19,
+      "id": 12,
       "team": "West Ham United",
       "logo": "https://www.mancity.com/meta/media/vxuduons/west_ham_united.png?height=48"
-    },
-    {
-      "id": 20,
-      "team": "Wolves",
-      "logo": "https://www.mancity.com/meta/media/k3qkdzvx/wolves.png?height=48"
     }
   ]
 }

@@ -16,24 +16,10 @@ import TabsMen from "../../Component/news/tabs/men/TabsMen";
 import TabsWomen from "../../Component/news/tabs/women/TabsWomen";
 import TabsAcademy from "../../Component/news/tabs/academy/TabsAcademy";
 import TabsClub from "../../Component/news/tabs/club/TabsClub";
-
+import { useRecoilState } from "recoil";
+import { NewsTabsState } from "../../atom/atom";
 const News = () => {
-  const initialTabsState = () => {
-    const storedTabs = localStorage.getItem("tabs");
-    return storedTabs
-      ? JSON.parse(storedTabs)
-      : {
-          all: true,
-          men: false,
-          women: false,
-          academy: false,
-          club: false,
-        };
-  };
-  const [tabs, setTabs] = useState(initialTabsState);
-  useEffect(() => {
-    localStorage.setItem("tabs", JSON.stringify(tabs));
-  }, [tabs]);
+  const [tabs, setTabs] = useRecoilState(NewsTabsState);
 
   const [title, setTitle] = useState("All News");
 

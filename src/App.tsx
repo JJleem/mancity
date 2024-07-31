@@ -11,6 +11,7 @@ import News from "./pages/News/News";
 import NewsDetail from "./pages/NewsDetail/NewsDetail";
 import Video from "./pages/Video/Video";
 import Fixtures from "./pages/Fixtures/Fixtures";
+import Ticket from "./pages/Tickets/Ticket";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/news/:id" element={<NewsDetail />} />
             <Route path="/video" element={<Video />} />
             <Route path="/fixures" element={<Fixtures />} />
+            <Route path="/ticket" element={<Ticket />} />
           </Routes>
         </RecoilRoot>
       </BrowserRouter>

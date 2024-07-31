@@ -3,15 +3,15 @@ type logo = {
   logo?: string;
 };
 export const MenTablesContainer = styled.div`
-  width: 1024px;
+  width: 100%;
   gap: 24px;
   display: flex;
   flex-direction: column;
 `;
-export const MenTablesLogo = styled.div`
-  background: url("https://www.mancity.com/meta/media/nt4fvtjt/mens-premier-league-purple-wide-3x.png?width=213");
+export const MenTablesLogo = styled.div<logo>`
+  background: url(${({ logo }) => logo});
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   width: 213px;
   height: 48px;
@@ -30,6 +30,41 @@ export const MenTablesSection = styled.div`
     }
     .headerPts {
       height: 40px;
+    }
+  }
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    .header {
+      border-bottom: 1px solid ${({ theme }) => theme.colors.TitleColor};
+      height: 40px;
+      color: ${({ theme }) => theme.colors.sub_text};
+      li {
+        font-size: ${({ theme }) => theme.fontSize.p12};
+      }
+      .headerPts {
+        height: 40px;
+      }
+    }
+  }
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    .header {
+      border-bottom: 1px solid ${({ theme }) => theme.colors.TitleColor};
+      height: 40px;
+      color: ${({ theme }) => theme.colors.sub_text};
+      li {
+        font-size: ${({ theme }) => theme.fontSize.p10};
+      }
+      .headerPts {
+        height: 40px;
+      }
+      :last-child {
+        width: 40px;
+      }
+      :nth-child(3) {
+        font-size: ${({ theme }) => theme.fontSize.p14};
+      }
+      :nth-child(2) {
+        font-size: ${({ theme }) => theme.fontSize.p14};
+      }
     }
   }
 `;
@@ -66,6 +101,52 @@ export const MenTablesRank = styled.ul`
     justify-content: start;
     padding-left: 6px;
   }
+
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    li {
+      width: 7%;
+      font-size: ${({ theme }) => theme.fontSize.p14};
+      letter-spacing: -1px;
+    }
+    :nth-child(3) {
+      width: 250px;
+      display: flex;
+      justify-content: start;
+      font-weight: 700;
+    }
+    :nth-child(12) {
+      width: 50px;
+      justify-content: start;
+      padding-left: 6px;
+    }
+  }
+  @media ${({ theme }) => theme.mediaSize.xs} {
+    li {
+      width: 9%;
+      font-size: ${({ theme }) => theme.fontSize.p14};
+      letter-spacing: -1px;
+    }
+    :nth-child(3) {
+      width: 250px;
+      display: flex;
+      justify-content: start;
+      font-weight: 700;
+    }
+    :nth-child(12) {
+      width: 40px;
+      justify-content: start;
+      padding-left: 6px;
+    }
+    :nth-child(10) {
+      display: none;
+    }
+    :nth-child(9) {
+      display: none;
+    }
+    :nth-child(8) {
+      display: none;
+    }
+  }
 `;
 export const MenTablesList = styled.div`
   width: 100%;
@@ -80,9 +161,20 @@ export const MenTablesList = styled.div`
   }
   ul:nth-child(13) {
     background: rgb(59, 214, 255, 0.3);
+    border: none;
+  }
+  ul:nth-child(12) {
+    border: none;
   }
   ul:nth-child(17) {
     border-bottom: 1px dashed ${({ theme }) => theme.colors.TitleColor};
+  }
+  .women:nth-child(9) {
+    background: rgb(59, 214, 255, 0.3);
+    border-bottom: 1px dashed ${({ theme }) => theme.colors.TitleColor};
+  }
+  .women:nth-child(8) {
+    border: none;
   }
 `;
 export const Logo = styled.span<logo>`
@@ -93,6 +185,12 @@ export const Logo = styled.span<logo>`
   background-size: cover;
   background-repeat: no-repeat;
   margin-right: 12px;
+  @media ${({ theme }) => theme.mediaSize.sm} {
+    width: 24px;
+    height: 24px;
+  }
+  @media ${({ theme }) => theme.mediaSize.xs} {
+  }
 `;
 export const SubText = styled.div`
   padding: 12px 0px;

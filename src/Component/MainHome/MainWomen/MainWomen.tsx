@@ -26,6 +26,8 @@ import {
 import city from "../../../assets/img/logo/mainlogo.png";
 import leicester from "../../../assets/img/logo/Leicester_City_crest.png";
 import { WomenSection, WomenWrapper } from "./StyleMainWomen";
+import { NewsTabsState } from "../../../atom/atom";
+import { useRecoilState } from "recoil";
 const MainWomen = () => {
   const navigate = useNavigate();
   const onNews = (id: string) => {
@@ -41,8 +43,19 @@ const MainWomen = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  const WomenNewsImg = db.womenNews.map((newsItems) => newsItems.img);
+  const [tabs, setTabs] = useRecoilState(NewsTabsState);
+  const handleTabClick = (tab: string) => {
+    setTabs((prevTabs: any) => ({
+      ...prevTabs,
+      [tab]: true,
+      all: tab === "all",
+      men: tab === "men",
+      women: tab === "women",
+      academy: tab === "academy",
+      club: tab === "club",
+    }));
+    navigate("/news");
+  };
   return (
     <WomenSection scroll={scrollY}>
       <NewsSectionInner>
@@ -104,7 +117,9 @@ const MainWomen = () => {
         </WomenWrapper>
       </NewsSectionInner>
       <MoreNews>
-        <MoreNewsBtn>More News</MoreNewsBtn>
+        <MoreNewsBtn onClick={() => handleTabClick("women")}>
+          More News
+        </MoreNewsBtn>
       </MoreNews>
     </WomenSection>
   );

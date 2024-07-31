@@ -21,6 +21,8 @@ import {
 } from "./StyleMainNewsSection";
 import { useNavigate } from "react-router-dom";
 import db from "../../../data/db.json";
+import { NewsTabsState } from "../../../atom/atom";
+import { useRecoilState } from "recoil";
 const newsSubImg = db.newsSub.map((newsItems) => newsItems.img);
 const newsSubBigImg = db.newsSubBig.map((newsItems) => newsItems.img);
 const newsMainImg = db.newsMain.map((newsItems) => newsItems.img);
@@ -42,7 +44,19 @@ const MainNewsSection = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
+  const [tabs, setTabs] = useRecoilState(NewsTabsState);
+  const handleTabClick = (tab: string) => {
+    setTabs((prevTabs: any) => ({
+      ...prevTabs,
+      [tab]: true,
+      all: tab === "all",
+      men: tab === "men",
+      women: tab === "women",
+      academy: tab === "academy",
+      club: tab === "club",
+    }));
+    navigate("/news");
+  };
   return (
     <NewsSection scroll={scrollY}>
       <NewsSectionInner>
@@ -99,7 +113,9 @@ const MainNewsSection = () => {
           </SubNewsGrid>
         </SubNewsBox>
         <MoreNews>
-          <MoreNewsBtn onClick={GoNewsPage}>More News</MoreNewsBtn>
+          <MoreNewsBtn onClick={() => handleTabClick("men")}>
+            More News
+          </MoreNewsBtn>
         </MoreNews>
       </NewsSectionInner>
     </NewsSection>
