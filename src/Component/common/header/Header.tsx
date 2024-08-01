@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import {
   HeaderContainer,
   HeaderInner,
@@ -13,6 +13,7 @@ import language from "../../../assets/img/icon/language.png";
 import account from "../../../assets/img/icon/account_circle.png";
 import sponser from "../../../assets/img/icon/wix_homepage_v2.png.png";
 import toggle from "../../../assets/img/icon/toggle.png";
+import cart from "../../../assets/img/icon/shopping_cart.png";
 
 const Header = () => {
   const location = useLocation();
@@ -20,39 +21,66 @@ const Header = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
+  const [activeLink, setActiveLink] = useState("");
 
-  console.log(location.pathname); // 현재 경로 출력
+  const handleLinkClick = (link: string) => {
+    setActiveLink(link);
+  };
   return (
     <HeaderContainer>
       <HeaderInner>
-        <Link to="/">
+        <Link to="/" onClick={() => handleLinkClick("/")}>
           <HeaderLogo />
         </Link>
 
         <MenuSection>
-          <li>
-            <Link to="/news">NEWS</Link>
+          <li className={location.pathname.startsWith("/news") ? "active" : ""}>
+            <Link to="/news" onClick={() => handleLinkClick("/news")}>
+              NEWS
+            </Link>
           </li>
-          <li>
-            <Link to="/video">VIDEO</Link>
+          <li
+            className={location.pathname.startsWith("/video") ? "active" : ""}
+          >
+            <Link to="/video" onClick={() => handleLinkClick("/video")}>
+              VIDEO
+            </Link>
           </li>
-          <li>
-            <Link to="/fixures">FIXTURES</Link>
+          <li
+            className={location.pathname.startsWith("/fixture") ? "active" : ""}
+          >
+            <Link to="/fixtures" onClick={() => handleLinkClick("/fixtures")}>
+              FIXTURES
+            </Link>
           </li>
-          <li>
-            <Link to="/ticket">TICKETS</Link>
+          <li
+            className={location.pathname.startsWith("/ticket") ? "active" : ""}
+          >
+            <Link to="/ticket" onClick={() => handleLinkClick("/ticket")}>
+              TICKETS
+            </Link>
           </li>
-          <li>
-            <Link to="/">SHOP</Link>
+          <li className={location.pathname.startsWith("/shop") ? "active" : ""}>
+            <Link to="/shop" onClick={() => handleLinkClick("/shop")}>
+              SHOP
+            </Link>
           </li>
-          <li>
-            <Link to="/">PLAYERS</Link>
+          <li
+            className={location.pathname.startsWith("/player") ? "active" : ""}
+          >
+            <Link to="/players" onClick={() => handleLinkClick("/player")}>
+              PLAYERS
+            </Link>
           </li>
-          <li>
-            <Link to="/">CLUB</Link>
+          <li className={location.pathname.startsWith("/club") ? "active" : ""}>
+            <Link to="/club" onClick={() => handleLinkClick("/club")}>
+              CLUB
+            </Link>
           </li>
-          <li>
-            <Link to="/">HELP</Link>
+          <li className={location.pathname.startsWith("/help") ? "active" : ""}>
+            <Link to="/help" onClick={() => handleLinkClick("/help")}>
+              HELP
+            </Link>
           </li>
         </MenuSection>
 
@@ -64,9 +92,21 @@ const Header = () => {
             LOGIN
             <IconLogo logo={account}></IconLogo>
           </Icon>
-          <Icon>
-            <IconLogo logo={sponser}></IconLogo>
-          </Icon>
+          {location.pathname.startsWith("/shop") ? null : (
+            <Icon>
+              <IconLogo logo={sponser}></IconLogo>
+            </Icon>
+          )}
+          {location.pathname.startsWith("/shop") && (
+            <Icon>
+              <IconLogo logo={cart}></IconLogo>
+            </Icon>
+          )}
+          {location.pathname.startsWith("/shop") && (
+            <Icon>
+              <IconLogo logo={cart}></IconLogo>
+            </Icon>
+          )}
           <Icon>
             <IconLogo logo={toggle}></IconLogo>
           </Icon>

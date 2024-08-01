@@ -33,8 +33,13 @@ export const MenuSection = styled.ul`
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: space-around;
 
+  gap: 10px;
+  & .active {
+    background: ${({ theme }) => theme.colors.middle_Skyblue};
+    color: White;
+    border-radius: 4px;
+  }
   li {
     padding: 8px 8px;
     transition: all 0.5s;

@@ -12,6 +12,10 @@ import NewsDetail from "./pages/NewsDetail/NewsDetail";
 import Video from "./pages/Video/Video";
 import Fixtures from "./pages/Fixtures/Fixtures";
 import Ticket from "./pages/Tickets/Ticket";
+import MenTicket from "./pages/Tickets/MenTicket";
+import WomenTicket from "./pages/Tickets/WomenTicket";
+import Shop from "./pages/Shop/Shop";
+import ShopNav from "./Component/shop/ShopNav";
 
 function App() {
   return (
@@ -20,13 +24,19 @@ function App() {
       <BrowserRouter>
         <RecoilRoot>
           <Header />
+          <ShopNav />
           <Routes>
             <Route path="/" element={<MainHome />} />
             <Route path="/news" element={<News />} />
             <Route path="/news/:id" element={<NewsDetail />} />
             <Route path="/video" element={<Video />} />
-            <Route path="/fixures" element={<Fixtures />} />
+            <Route path="/fixtures" element={<Fixtures />} />
             <Route path="/ticket" element={<Ticket />} />
+            <Route path="/ticket/men" element={<MenTicket />} />
+            <Route path="/ticket/women" element={<WomenTicket />} />
+          </Routes>
+          <Routes>
+            <Route path="/shop" element={<Shop />} />
           </Routes>
         </RecoilRoot>
       </BrowserRouter>

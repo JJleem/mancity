@@ -5,6 +5,7 @@ import {
   TicketBoxImg,
   TicketContent,
   TicketMain,
+  TicketPic,
   TicketSection,
   TicketTextBottom,
   TicketTextSection,
@@ -33,14 +34,7 @@ import WomenSuperLeague from "../../Component/ticket/WomenSuperLeague/WomenSuper
 import WomenSuperLeagueHome from "../../Component/ticket/WomenSuperLeague/WomenSuperLeagueHome";
 import WomenSuperLeagueAway from "../../Component/ticket/WomenSuperLeague/WomenSuperLeagueAway";
 import EDSAllCompetition from "../../Component/ticket/EDSAllCompetition/EDSAllCompetition";
-const Ticket = () => {
-  const navigate = useNavigate();
-  const handleMenTicket = () => {
-    navigate("/ticket/men");
-  };
-  const handleWomenTicket = () => {
-    navigate("/ticket/women");
-  };
+const WomenTicket = () => {
   const [hoveredTypeIndex, setHoveredTypeIndex] = useRecoilState(
     hoveredTypeIndexState
   );
@@ -57,11 +51,7 @@ const Ticket = () => {
       hoveredLocationIndex === 0 &&
       isFillter
     ) {
-      // isFilter가 true일 때, 해당 컴포넌트를 보여줌
       console.log("Show UpcomingMatchesFixture");
-
-      // isFilter를 false로 변경
-      // setIsFillter(false);
     }
   }, [hoveredIndex, hoveredTypeIndex, hoveredLocationIndex, isFillter]);
 
@@ -69,58 +59,14 @@ const Ticket = () => {
     <FixturesContainer>
       <InfoSection>
         <TicketSection>
-          <TicketMain>
-            <div>Tickets and Hospitality</div>
-            <span>
-              Buy official Manchester City tickets and hospitality experiences
-              direct from the Club
-            </span>
-          </TicketMain>
-          <TicketContent>
-            <TicketBox onClick={handleMenTicket}>
-              <TicketBoxImg imgs="https://www.mancity.com/meta/media/rkphnxan/li106255-f.jpg?width=682&height=344&mode=crop"></TicketBoxImg>
-              <TicketTextSection className="text">
-                <TicketTextTop>
-                  <div>MEN'S TICKETS</div>
-                  <span>Buy Men's Team Tickets and Hospitality online.</span>
-                </TicketTextTop>
-                <TicketTextBottom>
-                  All Men's Tickets
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24px"
-                    viewBox="0 -960 960 960"
-                    width="24px"
-                    fill="#5f6368"
-                  >
-                    <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
-                  </svg>
-                </TicketTextBottom>
-              </TicketTextSection>
-            </TicketBox>
-            <TicketBox onClick={handleWomenTicket}>
-              <TicketBoxImg imgs="https://www.mancity.com/meta/media/hu2jjjwc/ip606365-2.jpg?width=682&height=344&mode=crop"></TicketBoxImg>
-              <TicketTextSection className="text">
-                <TicketTextTop>
-                  <div>Women's Tickets</div>
-                  <span>Buy Women's Team Tickets and Hospitality online.</span>
-                </TicketTextTop>
-                <TicketTextBottom>
-                  All Women's Tickets
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24px"
-                    viewBox="0 -960 960 960"
-                    width="24px"
-                    fill="#5f6368"
-                  >
-                    <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
-                  </svg>
-                </TicketTextBottom>
-              </TicketTextSection>
-            </TicketBox>
-          </TicketContent>
-          <UpcomingMatches type="men" />
+          <TicketPic imgs="https://www.mancity.com/meta/media/r0hbywz1/ip608276.jpg?width=1024">
+            <div>
+              <span>Women's Team Ticket</span>
+              <p>Search all Manchester City Women's Team Tickets below</p>
+            </div>
+          </TicketPic>
+          <TicketContent></TicketContent>
+          <UpcomingMatches type="women" />
           {/* men */}
           {hoveredIndex === 0 &&
             hoveredTypeIndex === 0 &&
@@ -196,4 +142,4 @@ const Ticket = () => {
   );
 };
 
-export default Ticket;
+export default WomenTicket;
