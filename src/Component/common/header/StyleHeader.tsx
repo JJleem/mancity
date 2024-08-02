@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import mainlogo from "../../../assets/img/logo/mainlogo.png";
-import language from "../../../assets/img/icon/language.png";
-import account from "../../../assets/img/icon/account_circle.png";
-import sponser from "../../../assets/img/icon/wix_homepage_v2.png.png";
+import close from "../../../assets/img/icon/close.png";
+import toggle from "../../../assets/img/icon/toggle.png";
 type logoProps = {
   logo?: string;
+  isToggle?: boolean;
 };
 export const HeaderContainer = styled.div`
   width: 100vw;
@@ -12,7 +12,7 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(152, 197, 233, 0.8);
+  background: rgba(152, 197, 233, 0.9);
   position: fixed;
   top: 0;
   font-weight: 700;
@@ -126,4 +126,17 @@ export const IconLogo = styled.div<logoProps>`
   background-size: contain;
   width: 24px;
   height: 24px;
+`;
+export const ToggleLogo = styled.div<logoProps>`
+  display: none;
+  @media ${({ theme }) => theme.mediaSize.md} {
+    display: block;
+    transition: all 0.3s;
+    background-image: url(${({ isToggle }) => (isToggle ? toggle : close)});
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  }
 `;

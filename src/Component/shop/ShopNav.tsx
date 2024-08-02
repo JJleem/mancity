@@ -23,7 +23,7 @@ const ShopNav = () => {
   const handleLinkClick = (link: string) => {
     setActiveLink(link);
   };
-  console.log(activeLink);
+
   return (
     <ShopNavContainer isShop={isShop}>
       <ShopNavInner>

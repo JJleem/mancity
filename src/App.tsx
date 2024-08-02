@@ -16,6 +16,7 @@ import MenTicket from "./pages/Tickets/MenTicket";
 import WomenTicket from "./pages/Tickets/WomenTicket";
 import Shop from "./pages/Shop/Shop";
 import ShopNav from "./Component/shop/ShopNav";
+import Gaside from "./Component/common/gaside/Gaside";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <RecoilRoot>
           <Header />
           <ShopNav />
+          <Gaside />
           <Routes>
             <Route path="/" element={<MainHome />} />
             <Route path="/news" element={<News />} />

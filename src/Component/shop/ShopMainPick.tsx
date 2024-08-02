@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   ShopMainPickBox,
   ShopMainPickBoxImg,
@@ -10,56 +10,33 @@ import {
   ShopMainPickInner,
   ShopMainPickTop,
 } from "../../pages/Shop/StyleShop";
-
+import shopDb from "../../data/shopDb.json";
+import { NewsContainer } from "../../pages/News/StyleNews";
 const ShopMainPick = () => {
+  const [scrollY, setScrollY] = useState(0);
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <ShopMainPickContainer>
+    <ShopMainPickContainer scroll={scrollY}>
       <ShopMainPickInner>
         <ShopMainPickTop>OUR TOP PICKS</ShopMainPickTop>
         <ShopMainPickContent>
-          <ShopMainPickBox>
-            <ShopMainPickBoxImg
-              imgs="https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw1441de74/images/large/701230962ED001_pp_01_mcfc.png?sw=400&sh=400&sm=fit"
-              id="img"
-            />
-            <ShopMainPickBoxInfo>
-              <ShopMainPickBoxTitle>
-                Kids' Manchester City Third Jersey 2024/25 With FODEN 47
-                Printing
-              </ShopMainPickBoxTitle>
-              <ShopMainPickBoxPrice>£ 76,00 - £ 90,00</ShopMainPickBoxPrice>
-            </ShopMainPickBoxInfo>
-          </ShopMainPickBox>
-          <ShopMainPickBox>
-            <ShopMainPickBoxImg imgs="https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw1441de74/images/large/701230962ED001_pp_01_mcfc.png?sw=400&sh=400&sm=fit" />
-            <ShopMainPickBoxInfo>
-              <ShopMainPickBoxTitle>
-                Kids' Manchester City Third Jersey 2024/25 With FODEN 47
-                Printing
-              </ShopMainPickBoxTitle>
-              <ShopMainPickBoxPrice>£ 76,00 - £ 90,00</ShopMainPickBoxPrice>
-            </ShopMainPickBoxInfo>
-          </ShopMainPickBox>
-          <ShopMainPickBox>
-            <ShopMainPickBoxImg imgs="https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw1441de74/images/large/701230962ED001_pp_01_mcfc.png?sw=400&sh=400&sm=fit" />
-            <ShopMainPickBoxInfo>
-              <ShopMainPickBoxTitle>
-                Kids' Manchester City Third Jersey 2024/25 With FODEN 47
-                Printing
-              </ShopMainPickBoxTitle>
-              <ShopMainPickBoxPrice>£ 76,00 - £ 90,00</ShopMainPickBoxPrice>
-            </ShopMainPickBoxInfo>
-          </ShopMainPickBox>
-          <ShopMainPickBox>
-            <ShopMainPickBoxImg imgs="https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw1441de74/images/large/701230962ED001_pp_01_mcfc.png?sw=400&sh=400&sm=fit" />
-            <ShopMainPickBoxInfo>
-              <ShopMainPickBoxTitle>
-                Kids' Manchester City Third Jersey 2024/25 With FODEN 47
-                Printing
-              </ShopMainPickBoxTitle>
-              <ShopMainPickBoxPrice>£ 76,00 - £ 90,00</ShopMainPickBoxPrice>
-            </ShopMainPickBoxInfo>
-          </ShopMainPickBox>
+          {shopDb.topPick.map((item, index) => (
+            <ShopMainPickBox key={item.id}>
+              <ShopMainPickBoxImg imgs={item.img} id="img" />
+              <ShopMainPickBoxInfo>
+                <ShopMainPickBoxTitle>{item.title}</ShopMainPickBoxTitle>
+                <ShopMainPickBoxPrice>{item.price}</ShopMainPickBoxPrice>
+              </ShopMainPickBoxInfo>
+            </ShopMainPickBox>
+          ))}
         </ShopMainPickContent>
       </ShopMainPickInner>
     </ShopMainPickContainer>

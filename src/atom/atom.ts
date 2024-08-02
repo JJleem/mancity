@@ -81,3 +81,8 @@ export const activeLinkState = atom({
   key: "activeLinkState",
   default: "",
 });
+
+export const toggleAsideState = atom({
+  key: "toggleAsideState",
+  default: false,
+});

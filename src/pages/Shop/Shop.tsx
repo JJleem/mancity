@@ -12,6 +12,11 @@ import {
   ShopMainTop,
 } from "./StyleShop";
 import ShopMainPick from "../../Component/shop/ShopMainPick";
+import PlayerSlide from "../../Component/shop/PlayerSlide";
+import ShopBottomSection from "../../Component/shop/ShopBottomSection";
+import ShopSummerSale from "../../Component/shop/ShopSummerSale";
+import Footer from "../../Component/common/footer/Footer";
+import { AddContainer } from "../Fixtures/StyleFixtures";
 
 const Shop = () => {
   return (
@@ -29,6 +34,14 @@ const Shop = () => {
         <div>SHOP NOW</div>
       </ShopMainSub>
       <ShopMainPick></ShopMainPick>
+      <PlayerSlide></PlayerSlide>
+      <ShopBottomSection></ShopBottomSection>
+      <ShopSummerSale></ShopSummerSale>
+      <AddContainer logo="https://tpc.googlesyndication.com/simgad/15422444033030513763">
+        Advertisement
+        <div></div>
+      </AddContainer>
+      <Footer />
     </NewsContainer>
   );
 };

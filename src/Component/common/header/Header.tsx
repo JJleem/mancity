@@ -7,6 +7,7 @@ import {
   IconLogo,
   IconSection,
   MenuSection,
+  ToggleLogo,
 } from "./StyleHeader";
 import { Link, useLocation } from "react-router-dom";
 import language from "../../../assets/img/icon/language.png";
@@ -14,9 +15,15 @@ import account from "../../../assets/img/icon/account_circle.png";
 import sponser from "../../../assets/img/icon/wix_homepage_v2.png.png";
 import toggle from "../../../assets/img/icon/toggle.png";
 import cart from "../../../assets/img/icon/shopping_cart.png";
+import { toggleAsideState } from "../../../atom/atom";
+import { useRecoilState } from "recoil";
 
 const Header = () => {
   const location = useLocation();
+  const [isToggle, setIsToggle] = useRecoilState(toggleAsideState);
+  const handleToggle = () => {
+    setIsToggle(!isToggle);
+  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -25,6 +32,7 @@ const Header = () => {
 
   const handleLinkClick = (link: string) => {
     setActiveLink(link);
+    setIsToggle(true);
   };
   return (
     <HeaderContainer>
@@ -108,7 +116,11 @@ const Header = () => {
             </Icon>
           )}
           <Icon>
-            <IconLogo logo={toggle}></IconLogo>
+            <ToggleLogo
+              onClick={handleToggle}
+              logo={toggle}
+              isToggle={isToggle}
+            ></ToggleLogo>
           </Icon>
         </IconSection>
       </HeaderInner>

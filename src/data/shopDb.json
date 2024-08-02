@@ -1,0 +1,156 @@
+{
+  "topPick": [
+    {
+      "id": 1,
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw1441de74/images/large/701230962ED001_pp_01_mcfc.png",
+      "title": "Kids' Manchester City Third Jersey 2024/25 With FODEN 47 Printing",
+      "price": "£ 76,00 - £ 90,00"
+    },
+    {
+      "id": 2,
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dwbd8103b2/images/large/701230962CP001_pp_01_mcfc.png",
+      "title": "Kids' Manchester City Third Jersey 2024/25 With DE BRUYNE 17 Printing",
+      "price": "£ 76,00 - £ 90,00"
+    },
+    {
+      "id": 3,
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dwfc360862/images/large/701230959BY001_pp_01_mcfc.png",
+      "title": "Manchester City Third Jersey 2024/25 With HAALAND 9 Printing",
+      "price": "£ 96,00 - £ 110,00"
+    },
+    {
+      "id": 4,
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw80dff653/images/large/701230959EG001_pp_01_mcfc.png",
+      "title": "Manchester City Third Jersey 2024/25 With FODEN 47 Printing",
+      "price": "£ 96,00 - £ 110,00"
+    }
+  ],
+  "playerslide": [
+    {
+      "id": 1,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw6df04dfe/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_foden_desktop.jpg",
+      "name": "#47 Foden",
+      "link": "phill-foden"
+    },
+    {
+      "id": 2,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dwef7a7bfc/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_debruyne_desktop.jpg",
+      "name": "#17 De Bruyne",
+      "link": "kevin-debruyne"
+    },
+    {
+      "id": 3,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw2fe14ab2/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_haaland_desktop.jpg",
+      "name": "#9 Haaland",
+      "link": "erling-haaland"
+    },
+    {
+      "id": 4,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dwc6c52065/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_rodrigo_desktop.jpg",
+      "name": "#16 Rodrigo",
+      "link": "rodri"
+    },
+    {
+      "id": 5,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dwc30b35aa/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_grealish_desktop.jpg",
+      "name": "#10 Grealish",
+      "link": "jack-grealish"
+    },
+    {
+      "id": 6,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw29a8836d/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_doku_desktop.jpg",
+      "name": "#11 Doku",
+      "link": "jeremy-doku"
+    },
+    {
+      "id": 7,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw6de79475/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_gvardiol_desktop.jpg",
+      "name": "#24 Gvardiol",
+      "link": "josko-gvardiol"
+    },
+    {
+      "id": 8,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw7d80c131/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_bernardo_desktop.jpg?sw=1900&sfrm=jpg",
+      "name": "#20 Bernardo",
+      "link": "bernardo-silva"
+    },
+    {
+      "id": 9,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw5f92c2e2/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_ederson_desktop.jpg",
+      "name": "#31 Ederson",
+      "link": "ederson"
+    },
+    {
+      "id": 10,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dwe60930e7/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_alvarez_desktop.jpg",
+      "name": "#19 Álvarez",
+      "link": "julian-alvarez"
+    },
+    {
+      "id": 11,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw6c85e14e/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_stones_desktop.jpg",
+      "name": "#5 Stones",
+      "link": "john-stones"
+    },
+    {
+      "id": 12,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw6fbadedf/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_rubendias_desktop.jpg",
+      "name": "#3 Rúben",
+      "link": "ruben-dias"
+    },
+    {
+      "id": 13,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dwe11aebef/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_walker_desktop.jpg",
+      "name": "#2 Walker",
+      "link": "kyle-walker"
+    },
+    {
+      "id": 14,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw6eadc10b/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_kovacic_desktop.jpg",
+      "name": "#8 Kovačić",
+      "link": "mateo-kocacic"
+    },
+    {
+      "id": 15,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dwec1958da/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_ake_desktop.jpg",
+      "name": "#6 Aké",
+      "link": "nathon-ake"
+    },
+    {
+      "id": 16,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw3beab560/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_lewis_desktop.jpg",
+      "name": "#82 Lewis",
+      "link": "rico-lewis"
+    },
+    {
+      "id": 17,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dwcd7a0ab5/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_akanji_desktop.jpg",
+      "name": "#25 Akanji",
+      "link": "manuel-akanji"
+    },
+    {
+      "id": 18,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw2414448c/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_bobb_desktop.jpg",
+      "name": "#52 Bobb",
+      "link": "oscar-bobb"
+    },
+    {
+      "id": 19,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw781619ae/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_nunes_desktop.jpg",
+      "name": "#27 Nunes",
+      "link": "mateus-nunes"
+    },
+    {
+      "id": 20,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw008a25be/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_ortega_desktop-1.jpg",
+      "name": "#18 Ortega",
+      "link": "ortega"
+    },
+    {
+      "id": 21,
+      "imgs": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw0862f310/images/2024_campaigns/shopbyplayer_desktop/homepage_sbp_homekit2425_carson_desktop.jpg",
+      "name": "#33 Carson",
+      "link": "scott-carson"
+    }
+  ]
+}
