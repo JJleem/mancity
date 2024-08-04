@@ -30,6 +30,7 @@ import YouTube from "react-youtube";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../Component/common/footer/Footer";
 import PictureSpecialComponent from "../../Component/detail/PictureSpecialComponent";
+import { Helmet } from "react-helmet";
 const NewsDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -56,6 +57,9 @@ const NewsDetail = () => {
           .filter((newsItem) => newsItem.id === Number(id))
           .map((newsItem, index) => (
             <NewsDetailSection key={newsItem.id}>
+              <Helmet>
+                <title>{newsItem.title}- Manchester City F.C.</title>
+              </Helmet>
               <GobackSection>
                 <Goback onClick={goback}>
                   <svg

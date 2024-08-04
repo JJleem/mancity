@@ -13,6 +13,7 @@ import {
   GifTwo,
 } from "../Component/MainHome/mainNews/StyleMainNewsSection";
 import { MainHomeContainer, MainHomeInner } from "./MainHome/StyleMainHome";
+import { Helmet } from "react-helmet";
 
 const MainHome = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -28,6 +29,9 @@ const MainHome = () => {
 
   return (
     <MainHomeContainer>
+      <Helmet>
+        <title>Manchester City FC - Official Website of Man City F.C.</title>
+      </Helmet>
       <MainHomeInner>
         <MainSlider />
       </MainHomeInner>

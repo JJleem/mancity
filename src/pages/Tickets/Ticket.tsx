@@ -33,6 +33,7 @@ import WomenSuperLeague from "../../Component/ticket/WomenSuperLeague/WomenSuper
 import WomenSuperLeagueHome from "../../Component/ticket/WomenSuperLeague/WomenSuperLeagueHome";
 import WomenSuperLeagueAway from "../../Component/ticket/WomenSuperLeague/WomenSuperLeagueAway";
 import EDSAllCompetition from "../../Component/ticket/EDSAllCompetition/EDSAllCompetition";
+import { Helmet } from "react-helmet";
 const Ticket = () => {
   const navigate = useNavigate();
   const handleMenTicket = () => {
@@ -57,16 +58,15 @@ const Ticket = () => {
       hoveredLocationIndex === 0 &&
       isFillter
     ) {
-      // isFilter가 true일 때, 해당 컴포넌트를 보여줌
       console.log("Show UpcomingMatchesFixture");
-
-      // isFilter를 false로 변경
-      // setIsFillter(false);
     }
   }, [hoveredIndex, hoveredTypeIndex, hoveredLocationIndex, isFillter]);
 
   return (
     <FixturesContainer>
+      <Helmet>
+        <title>Buy Official Manchester City Tickets and Hospitality</title>
+      </Helmet>
       <InfoSection>
         <TicketSection>
           <TicketMain>

@@ -34,6 +34,7 @@ import Footer from "../../Component/common/footer/Footer";
 import { useRecoilState } from "recoil";
 import { fixtureTabsState } from "../../atom/atom";
 import { fixtureTeamState } from "../../atom/atom";
+import { Helmet } from "react-helmet";
 const Fixtures = () => {
   const [Fixturetabs, setFixturetabs] = useRecoilState(fixtureTabsState);
 
@@ -79,6 +80,9 @@ const Fixtures = () => {
 
   return (
     <FixturesContainer>
+      <Helmet>
+        <title> Manchester City 2024/25 Fixtures - Manchester City F.C.</title>
+      </Helmet>
       <FixtureInner>
         <FixtureInfoSection>
           <FixtureInfoTabs>

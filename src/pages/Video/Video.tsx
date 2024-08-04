@@ -18,6 +18,7 @@ import TabsAcademy from "../../Component/news/tabs/academy/TabsAcademy";
 import TabsClub from "../../Component/news/tabs/club/TabsClub";
 import theme from "../../assets/theme/theme";
 import VideoAll from "../../Component/Video/VideoAll";
+import { Helmet } from "react-helmet";
 
 const Video = () => {
   const initialTabsState = () => {
@@ -53,6 +54,9 @@ const Video = () => {
 
   return (
     <NewsContainer style={{ background: `${theme.colors.medium_blue}` }}>
+      <Helmet>
+        <title> Videos - Man City Latest Videos - Manchester City F.C.</title>
+      </Helmet>
       <NewsInner>
         <NewsInfoSection style={{ color: `${theme.colors.White}` }}>
           <div style={{ color: `${theme.colors.point_Skyblue}` }}>VIDEO</div>

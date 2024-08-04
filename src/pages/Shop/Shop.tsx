@@ -17,10 +17,14 @@ import ShopBottomSection from "../../Component/shop/ShopBottomSection";
 import ShopSummerSale from "../../Component/shop/ShopSummerSale";
 import Footer from "../../Component/common/footer/Footer";
 import { AddContainer } from "../Fixtures/StyleFixtures";
+import { Helmet } from "react-helmet";
 
 const Shop = () => {
   return (
     <NewsContainer>
+      <Helmet>
+        <title> Manchester City - The Official Online Shop</title>
+      </Helmet>
       <ShopNav />
       <ShopMainContainer>
         <ShopMainTop>DISCOVERY OUR 24/25 THIRD KIT</ShopMainTop>

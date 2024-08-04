@@ -18,6 +18,7 @@ import TabsAcademy from "../../Component/news/tabs/academy/TabsAcademy";
 import TabsClub from "../../Component/news/tabs/club/TabsClub";
 import { useRecoilState } from "recoil";
 import { NewsTabsState } from "../../atom/atom";
+import { Helmet } from "react-helmet";
 const News = () => {
   const [tabs, setTabs] = useRecoilState(NewsTabsState);
 
@@ -56,6 +57,9 @@ const News = () => {
 
   return (
     <NewsContainer>
+      <Helmet>
+        <title>Mancity Official Latest News - Manchester City F.C.</title>
+      </Helmet>
       <NewsInner>
         <NewsInfoSection>
           <div>NEWS</div>
