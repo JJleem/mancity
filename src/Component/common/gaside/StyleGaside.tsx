@@ -19,7 +19,7 @@ export const GasideContainer = styled.div<IsToggleProps>`
     width: 100%;
     height: 100vh;
     background: ${({ theme }) => theme.colors.middle_Skyblue};
-    right: ${({ isToggle }) => (isToggle ? "-100%" : "0px ")};
+    right: ${({ isToggle }) => (isToggle ? "0px" : "-100% ")};
   }
 `;
 export const GasideInner = styled.div<Props>`
