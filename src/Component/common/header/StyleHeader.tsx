@@ -132,7 +132,7 @@ export const ToggleLogo = styled.div<logoProps>`
   @media ${({ theme }) => theme.mediaSize.md} {
     display: block;
     transition: all 0.3s;
-    background-image: url(${({ isToggle }) => (isToggle ? toggle : close)});
+    background-image: url(${({ isToggle }) => (isToggle ? close : toggle)});
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
