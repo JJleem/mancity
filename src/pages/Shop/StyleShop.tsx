@@ -108,7 +108,7 @@ export const ShopMainImgSection = styled.div`
   }
 `;
 export const ShopMainImg = styled.div`
-  background: url("https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dwe3dac1d5/images/2024_campaigns/homepage_thirdkit2425/hero_desktop_thirdkit2425launch_v2.jpg");
+  background: url("https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dwa39cc85b/images/2024_campaigns/homepage_awaykit2425/hero_desktop_awaykit2425launch_v2-kdb_2560x720.jpg?sw=1900&sfrm=jpg");
   width: 100%;
   height: 100%;
   background-position: center;
@@ -121,10 +121,10 @@ export const ShopMainImg = styled.div`
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    background: url("https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dwc6b19c86/images/2024_campaigns/homepage_thirdkit2425/hero_mobile_thirdkit2425launch_v1.jpg");
+    background: url("https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw2896c289/images/2024_campaigns/homepage_awaykit2425/hero_mobile_awaykit2425launch_v2-kdb-notext.jpg?sw=992&sfrm=jpg");
   }
   @media ${({ theme }) => theme.mediaSize.sm} {
-    background: url("https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dwc6b19c86/images/2024_campaigns/homepage_thirdkit2425/hero_mobile_thirdkit2425launch_v1.jpg");
+    background: url("https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-MAN-Library/default/dw2896c289/images/2024_campaigns/homepage_awaykit2425/hero_mobile_awaykit2425launch_v2-kdb-notext.jpg?sw=768&sfrm=jpg");
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -161,12 +161,18 @@ export const ShopMainSub = styled.div`
       font-weight: 700;
       letter-spacing: -1.5px;
     }
+    span {
+      font-size: ${({ theme }) => theme.fontSize.p14};
+    }
   }
   @media ${({ theme }) => theme.mediaSize.xs} {
     p {
       font-size: ${({ theme }) => theme.fontSize.p20};
       font-weight: 700;
       letter-spacing: -1.5px;
+    }
+    span {
+      font-size: ${({ theme }) => theme.fontSize.p11};
     }
   }
 `;
@@ -221,19 +227,13 @@ export const ShopMainPickBox = styled.div`
   box-shadow: 0px 0px 4px #ccc;
   cursor: pointer;
   &:hover {
-    border: 1px solid rgb(221, 36, 124);
-    box-shadow: 0px 0px 4px #dd247c;
-    #img {
-      background-color: rgb(221, 36, 124);
-    }
+    border: 1px solid ${({ theme }) => theme.colors.point_Skyblue};
+    box-shadow: 0px 0px 4px ${({ theme }) => theme.colors.point_Skyblue};
   }
   @media ${({ theme }) => theme.mediaSize.xs} {
     &:hover {
       border: 1px solid ${({ theme }) => theme.colors.info_BG};
       box-shadow: 0px 0px 4px #ccc;
-      #img {
-        background-color: ${({ theme }) => theme.colors.info_BG};
-      }
     }
   }
 `;
@@ -507,7 +507,7 @@ export const SectionOneImg = styled.div<Imgs>`
   background-repeat: no-repeat;
   background-size: cover;
   @media ${({ theme }) => theme.mediaSize.sm} {
-    height: 400px;
+    height: 300px;
   }
   @media ${({ theme }) => theme.mediaSize.xs} {
     height: 220px;

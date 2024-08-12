@@ -1,0 +1,128 @@
+{
+  "awayKit": [
+    {
+      "id": 1,
+      "title": "Kids' Manchester City Full Away Kit 24/25",
+      "price": "£ 104,00",
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4f731078/product-sets/mancity-24/away_kids_set2425%20-transparant.png?sw=400&sh=400&sm=fit",
+      "productType": ["T-shirts", "Socks", "Shorts"],
+      "gender": ["Kids"],
+      "size": ["5/6", "7/8", "9/10", "11/12", "13/14", "15/16"],
+      "sleeveType": ["Short"]
+    },
+    {
+      "id": 2,
+      "title": "Manchester City Away Jersey 2024/25",
+      "price": "£ 80,00",
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw193884ae/images/large/701230949001_pp_01_mcfc.png?sw=400&sh=400&sm=fit",
+      "productType": ["T-shirts"],
+      "gender": ["Mens/Unisex"],
+      "size": ["S", "M", "L", "XL", "XXL", "3XL"],
+      "sleeveType": ["Short"]
+    },
+    {
+      "id": 3,
+      "title": "Kids' Manchester City Away Jersey 2024/25",
+      "price": "£ 60,00",
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dwe74371ca/images/large/701230953001_pp_01_mcfc.png?sw=400&sh=400&sm=fit",
+      "productType": ["T-shirts"],
+      "gender": ["Kids"],
+      "size": ["5/6", "7/8", "9/10", "11/12", "13/14", "15/16"],
+      "sleeveType": ["Short"]
+    },
+    {
+      "id": 4,
+      "title": "Manchester City Authentic Away Jersey 2024/25 In Gift Box",
+      "price": "£ 120,00",
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dwdf722d43/images/large/701230871001_pp_01_mcfc.png?sw=400&sh=400&sm=fit",
+      "productType": ["T-shirts"],
+      "gender": ["Mens/Unisex"],
+      "size": ["S", "M", "L", "XL", "XXL", "3XL"],
+      "sleeveType": ["Short"]
+    },
+    {
+      "id": 5,
+      "title": "Kids' Manchester City Socks 2024/25",
+      "price": "£ 16,00",
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dwb279b055/images/large/701230997002_pp_01_mcfc.png?sw=400&sh=400&sm=fit",
+      "productType": ["Socks"],
+      "gender": ["Kids"]
+    },
+    {
+      "id": 6,
+      "title": "Kids' Manchester City Football Shorts 2024/25",
+      "price": "£ 28,00",
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw89b63ad2/images/large/701230990002_pp_01_mcfc.png?sw=400&sh=400&sm=fit",
+      "productType": ["Shorts"],
+      "size": ["5/6", "7/8", "9/10", "11/12", "13/14", "15/16"],
+      "gender": ["Kids"]
+    },
+    {
+      "id": 7,
+      "title": "Manchester City Socks 2024/25",
+      "price": "£ 18,00",
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw0dda1419/images/large/701230996002_pp_01_mcfc.png?sw=400&sh=400&sm=fit",
+      "productType": ["Socks"],
+      "gender": ["Mens/Unisex"]
+    },
+    {
+      "id": 8,
+      "title": "Manchester City Football Shorts 2024/25",
+      "price": "£ 38,00",
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw0dda1419/images/large/701230996002_pp_01_mcfc.png?sw=400&sh=400&sm=fit",
+      "productType": ["Shorts"],
+      "gender": ["Mens/Unisex"],
+      "size": ["S", "M", "L", "XL", "XXL", "3XL"]
+    },
+    {
+      "id": 9,
+      "title": "Manchester City Away Jersey 2024/25 With Custom Printing",
+      "price": "£ 80,00 - £ 110,00",
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dwf458248f/images/large/701230949AA001_pp_01_mcfc.png?sw=400&sh=400&sm=fit",
+      "productType": ["T-shirts"],
+      "gender": ["Mens/Unisex"],
+      "size": ["S", "M", "L", "XL", "XXL", "3XL"],
+      "sleeveType": ["Short"]
+    },
+    {
+      "id": 10,
+      "title": "Women's Manchester City Away Jersey 2024/25",
+      "price": "£ 80,00",
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw2cf9d29c/images/large/701230952001_pp_01_mcfc.png?sw=400&sh=400&sm=fit",
+      "productType": ["T-shirts"],
+      "gender": ["Women"],
+      "size": ["XS", "S", "M", "L", "XL", "XXL", "3XL"],
+      "sleeveType": ["Short"]
+    },
+    {
+      "id": 11,
+      "title": "Kids' Manchester City Away Mini Kit 2024/25",
+      "price": "£ 50,00",
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dwdde1d64d/images/large/701230955001_pp_01_mcfc.png?sw=400&sh=400&sm=fit",
+      "productType": ["T-shirts"],
+      "gender": ["Kids"],
+      "size": ["5/6", "7/8", "9/10", "11/12", "13/14", "15/16"],
+      "sleeveType": ["None"]
+    },
+    {
+      "id": 12,
+      "title": "Manchester City Authentic Away Long Sleeve Jersey 2024/25",
+      "price": "£ 110,00",
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dwe2b8137b/images/large/701230872001_pp_01_mcfc.png?sw=400&sh=400&sm=fit",
+      "productType": ["T-shirts"],
+      "gender": ["Mens/Unisex"],
+      "size": ["S", "M", "L", "XL", "XXL", "3XL"],
+      "sleeveType": ["Long"]
+    },
+    {
+      "id": 13,
+      "title": "Kids' Manchester City Away Long Sleeve Jersey 2024/25",
+      "price": "£ 65,00",
+      "img": "https://shop.mancity.com/dw/image/v2/BDWJ_PRD/on/demandware.static/-/Sites-master-catalog-MAN/default/dw5c42db82/images/large/701230954001_pp_01_mcfc.png?sw=400&sh=400&sm=fit",
+      "productType": ["T-shirts"],
+      "gender": ["Kids"],
+      "size": ["5/6", "7/8", "9/10", "11/12", "13/14", "15/16"],
+      "sleeveType": ["Long"]
+    }
+  ]
+}

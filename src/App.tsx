@@ -17,6 +17,7 @@ import WomenTicket from "./pages/Tickets/WomenTicket";
 import Shop from "./pages/Shop/Shop";
 import ShopNav from "./Component/shop/ShopNav";
 import Gaside from "./Component/common/gaside/Gaside";
+import Kits from "./pages/Shop/Kits/Kits";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           </Routes>
           <Routes>
             <Route path="/shop" element={<Shop />} />
+            <Route path="/shop/kits" element={<Kits />} />
           </Routes>
         </RecoilRoot>
       </BrowserRouter>

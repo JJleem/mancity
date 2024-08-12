@@ -33,7 +33,11 @@ const ShopNav = () => {
               KITS
             </Link>
           </li>
-          <li className={location.pathname === "/shop/player" ? "active" : ""}>
+          <li
+            className={
+              location.pathname.startsWith("/shop/player") ? "active" : ""
+            }
+          >
             <Link to="/shop/player" onClick={() => handleLinkClick("/player")}>
               SHOP BUY PLAYER
             </Link>

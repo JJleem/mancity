@@ -18,8 +18,12 @@ import ShopSummerSale from "../../Component/shop/ShopSummerSale";
 import Footer from "../../Component/common/footer/Footer";
 import { AddContainer } from "../Fixtures/StyleFixtures";
 import { Helmet } from "react-helmet";
-
+import { useNavigate } from "react-router-dom";
 const Shop = () => {
+  const navigate = useNavigate();
+  const goKit = () => {
+    navigate("/shop/kits");
+  };
   return (
     <NewsContainer>
       <Helmet>
@@ -27,15 +31,17 @@ const Shop = () => {
       </Helmet>
       <ShopNav />
       <ShopMainContainer>
-        <ShopMainTop>DISCOVERY OUR 24/25 THIRD KIT</ShopMainTop>
+        <ShopMainTop>DISCOVERY OUR 24/25 AWAY KIT</ShopMainTop>
         <ShopMainImgSection>
           <ShopMainImg></ShopMainImg>
         </ShopMainImgSection>
       </ShopMainContainer>
       <ShopMainSub>
-        <p>NEVER NOT MOVING</p>
-        <span>Introducing The 2024/25 Man City Third Kit</span>
-        <div>SHOP NOW</div>
+        <p>COMEBACK COMPLETED</p>
+        <span>
+          Introducing The 2024/25 Man City Away Kit: A Certified Classic
+        </span>
+        <div onClick={goKit}>SHOP NOW</div>
       </ShopMainSub>
       <ShopMainPick></ShopMainPick>
       <PlayerSlide></PlayerSlide>
