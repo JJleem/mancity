@@ -34,6 +34,7 @@ import WomenSuperLeagueHome from "../../Component/ticket/WomenSuperLeague/WomenS
 import WomenSuperLeagueAway from "../../Component/ticket/WomenSuperLeague/WomenSuperLeagueAway";
 import EDSAllCompetition from "../../Component/ticket/EDSAllCompetition/EDSAllCompetition";
 import { Helmet } from "react-helmet";
+import Footer from "../../Component/common/footer/Footer";
 const Ticket = () => {
   const navigate = useNavigate();
   const handleMenTicket = () => {
@@ -192,6 +193,7 @@ const Ticket = () => {
           {/* ACADEMY */}
         </TicketSection>
       </InfoSection>
+      <Footer />
     </FixturesContainer>
   );
 };

@@ -10,6 +10,7 @@ import {
   KitsMainSubInner,
 } from "./StyleKits";
 import KitsList from "../../../Component/shop/kits/KitsList";
+import Footer from "../../../Component/common/footer/Footer";
 
 const Kits = () => {
   return (
@@ -40,6 +41,7 @@ const Kits = () => {
         </KitsMainImgSection>
         <KitsList></KitsList>
       </KitsMainContainer>
+      <Footer />
     </NewsContainer>
   );
 };

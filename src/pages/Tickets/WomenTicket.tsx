@@ -34,6 +34,7 @@ import WomenSuperLeague from "../../Component/ticket/WomenSuperLeague/WomenSuper
 import WomenSuperLeagueHome from "../../Component/ticket/WomenSuperLeague/WomenSuperLeagueHome";
 import WomenSuperLeagueAway from "../../Component/ticket/WomenSuperLeague/WomenSuperLeagueAway";
 import EDSAllCompetition from "../../Component/ticket/EDSAllCompetition/EDSAllCompetition";
+import Footer from "../../Component/common/footer/Footer";
 const WomenTicket = () => {
   const [hoveredTypeIndex, setHoveredTypeIndex] = useRecoilState(
     hoveredTypeIndexState
@@ -138,6 +139,7 @@ const WomenTicket = () => {
           {/* ACADEMY */}
         </TicketSection>
       </InfoSection>
+      <Footer />
     </FixturesContainer>
   );
 };
