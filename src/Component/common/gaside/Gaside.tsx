@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useRecoilState } from "recoil";
 import { toggleAsideState } from "../../../atom/atom";
 import {
-  GasideContainer, 
+  GasideContainer,
   GasideInner,
   GasideSection,
   ShopContent,
@@ -19,10 +19,7 @@ const Gaside = () => {
   const handleIsShop = () => {
     setIsShop(!isShop);
   };
-  // useEffect(() => {
-  //   location.pathname.startsWith("/shop") ? setIsShop(true) : setIsShop(false);
-  // }, [location]);
-  console.log(isShop);
+
   return (
     <GasideContainer isToggle={isToggle}>
       <GasideInner isShop={isShop}>
@@ -63,6 +60,13 @@ const Gaside = () => {
         </GasideSection>
         {isShop ? (
           <ShopSection>
+            <ShopContent
+              className={location.pathname === "/shop" ? "active" : ""}
+            >
+              <Link to="/shop" onClick={handleToggle}>
+                SHOP
+              </Link>
+            </ShopContent>
             <ShopContent
               className={location.pathname === "/shop/kits" ? "active" : ""}
             >

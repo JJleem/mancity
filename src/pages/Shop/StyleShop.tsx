@@ -226,15 +226,8 @@ export const ShopMainPickBox = styled.div`
   border: 1px solid ${({ theme }) => theme.colors.info_BG};
   box-shadow: 0px 0px 4px #ccc;
   cursor: pointer;
-  &:hover {
-    border: 1px solid ${({ theme }) => theme.colors.point_Skyblue};
-    box-shadow: 0px 0px 4px ${({ theme }) => theme.colors.point_Skyblue};
-  }
+
   @media ${({ theme }) => theme.mediaSize.xs} {
-    &:hover {
-      border: 1px solid ${({ theme }) => theme.colors.info_BG};
-      box-shadow: 0px 0px 4px #ccc;
-    }
   }
 `;
 export const ShopMainPickBoxImg = styled.div<Imgs>`
