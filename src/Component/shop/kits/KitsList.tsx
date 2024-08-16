@@ -73,6 +73,7 @@ const KitsList = () => {
     "15/16",
   ];
   const SleeveType = ["Short", "Long", "None"];
+
   return (
     <>
       <KitsListContainer>
@@ -279,7 +280,7 @@ const KitsList = () => {
       </KitsListContainer>
 
       <KitsGridContainer>
-        {awayKitDb.awayKit.slice(0, visibleCount).map((item, index) => (
+        {/* {awayKitDb.awayKit.slice(0, visibleCount).map((item, index) => (
           <KitsGridItem key={item.id}>
             <KitsGridItemInner>
               <KitsGridItemImg imgs={item.img} />
@@ -289,7 +290,33 @@ const KitsList = () => {
               <span> {item.price}</span>
             </KitsGrideItemSub>
           </KitsGridItem>
-        ))}
+        ))} */}
+        {awayKitDb.awayKit
+          .filter((item) => {
+            // item.productType이 배열인지 확인
+            if (Array.isArray(item.productType)) {
+              // selectedOptions에 있는 모든 옵션이 item.productType에 포함되는지 확인
+              return (
+                selectedOptions.length === 0 ||
+                selectedOptions.some((option) =>
+                  item.productType.includes(option)
+                )
+              );
+            }
+            return selectedOptions.length === 0; // productType이 없거나 배열이 아닐 경우
+          })
+          .slice(0, visibleCount)
+          .map((item, index) => (
+            <KitsGridItem key={item.id}>
+              <KitsGridItemInner>
+                <KitsGridItemImg imgs={item.img} />
+              </KitsGridItemInner>
+              <KitsGrideItemSub className="sub">
+                <p>{item.title}</p>
+                <span>{item.price}</span>
+              </KitsGrideItemSub>
+            </KitsGridItem>
+          ))}
       </KitsGridContainer>
       {visibleCount < awayKitDb.awayKit.length && (
         <SeeMoreBox>
