@@ -33,15 +33,15 @@ const KitsList = () => {
   const [tabs, setTabs] = useState("");
 
   const handleTabClick = (tab: string) => {
-    setTabs(tab); // 클릭한 탭의 이름으로 상태를 설정
+    setTabs(tab); 
   };
   const [selectedOptions, setSelectedOptions] = useState<string[]>([]);
   const handleProductCheckboxChange = (option: string) => {
     setSelectedOptions(
       (prev) =>
         prev.includes(option)
-          ? prev.filter((item) => item !== option) // 체크박스가 해제된 경우
-          : [...prev, option] // 체크박스가 선택된 경우
+          ? prev.filter((item) => item !== option) 
+          : [...prev, option] 
     );
   };
   const handleRemoveOption = (option: string) => {
