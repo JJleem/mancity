@@ -33,15 +33,14 @@ const KitsList = () => {
   const [tabs, setTabs] = useState("");
 
   const handleTabClick = (tab: string) => {
-    setTabs(tab); 
+    setTabs(tab);
   };
   const [selectedOptions, setSelectedOptions] = useState<string[]>([]);
   const handleProductCheckboxChange = (option: string) => {
-    setSelectedOptions(
-      (prev) =>
-        prev.includes(option)
-          ? prev.filter((item) => item !== option) 
-          : [...prev, option] 
+    setSelectedOptions((prev) =>
+      prev.includes(option)
+        ? prev.filter((item) => item !== option)
+        : [...prev, option]
     );
   };
   const handleRemoveOption = (option: string) => {
@@ -280,17 +279,6 @@ const KitsList = () => {
       </KitsListContainer>
 
       <KitsGridContainer>
-        {/* {awayKitDb.awayKit.slice(0, visibleCount).map((item, index) => (
-          <KitsGridItem key={item.id}>
-            <KitsGridItemInner>
-              <KitsGridItemImg imgs={item.img} />
-            </KitsGridItemInner>
-            <KitsGrideItemSub className="sub">
-              <p>{item.title}</p>
-              <span> {item.price}</span>
-            </KitsGrideItemSub>
-          </KitsGridItem>
-        ))} */}
         {awayKitDb.awayKit
           .filter((item) => {
             // item.productType이 배열인지 확인
